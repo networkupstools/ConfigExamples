@@ -63,7 +63,7 @@ ConfigExamples.pdf: ConfigExamples.tex A5.1col.tex Makefile $(FIGURES)
 	pdflatex "\newcommand{\ncols}{one}\input{ConfigExamples.tex}"
 #	echo "%%%%%%%%%%%%%%%%%% Fourth pass %%%%%%%%%%%%%%%%%%%%%"
 #	pdflatex "\newcommand{\ncols}{one}\input{ConfigExamples.tex}"
-	cp ConfigExamples.pdf ConfigExamples.A5.pdf
+#	cp ConfigExamples.pdf ConfigExamples.A5.pdf
 
 # Clean out temporary files
 clean: Makefile $(FIGURES)
