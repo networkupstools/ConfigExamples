@@ -1,0 +1,56 @@
+%% tablet.tex
+%% Introduction to Network UPS Tools (NUT)
+%% Configuration Examples, formatted for ISO A5 paper,
+%% to be read on a portrait tablet
+
+%% This program is free software; you can redistribute it and/or
+%% modify it under the terms of the GNU General Public License
+%% as published by the Free Software Foundation; either version 2
+%% of the License, or (at your option) any later version.
+
+%% This program is distributed in the hope that it will be useful,
+%% but WITHOUT ANY WARRANTY; without even the implied warranty of
+%% MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+%% GNU General Public License for more details.
+
+%% You should have received a copy of the GNU General Public License
+%% along with this program; if not, write to the Free Software
+%% Foundation, Inc., 59 Temple Place - Suite 330, 
+%% Boston, MA  02111-1307, USA.
+
+% Page size
+% A3 paper: 297x420mm
+% A4 paper: 210x297mm => 146.5x246.2mm useful space
+% A5 paper: 148x210mm
+% US paper: 215.9x279.4mm => 152.4x228.6 useful space
+% Landscape A4  See LaTeX Companion p.84, fig 4.1.
+% Monitor size
+% 17 inch 4:3 350x260mm, 16:9 380x210mm
+% 19 inch 4:3 390x290mm, 16:9 420x240mm
+% 21 inch 4:3 430x320mm, 16:9 440x260mm
+% 23 inch 4:3 470x350mm, 16:9 510x290mm
+\setlength{\hoffset}{-25.4mm}           % See the Companion p.86.  +ve axis to the right
+\addtolength{\hoffset}{-4mm}            % Slide page image a little to the left
+\setlength{\voffset}{-25.4mm}           % +ve axis downwards
+\addtolength{\voffset}{-4mm}            % Raise page image just a little more
+
+\setlength{\textwidth}{197.5mm}         % \LinePrinterwidth + 32mm + \columnsep
+\setlength{\paperwidth}{\textwidth}
+\setlength{\pdfpagewidth}{\textwidth}
+\addtolength{\textwidth}{-20mm}
+
+\setlength{\textheight}{240mm}
+\setlength{\paperheight}{\textheight}
+\setlength{\pdfpageheight}{\textheight}
+\addtolength{\textheight}{-30mm}
+
+\setlength{\columnsep}{15mm}
+%\setlength{\columnseprule}{1pt}
+\setlength{\topmargin}{3mm}
+\addtolength{\headsep}{-1mm}            % See Companion, p.85
+\addtolength{\footskip}{-1mm}
+
+% The LinePrinter print width 
+\newlength{\LinePrinterwidth}
+\setlength{\LinePrinterwidth}{145.5mm}  % 19" monitor 0.5(\textwidth-\columnsep)-32mm
+
