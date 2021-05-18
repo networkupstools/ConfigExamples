@@ -50,7 +50,7 @@
 %\listfiles                           % Which files did I use?
 
 % Version
-\newcommand{\Version}{2.0 \isodate}
+\newcommand{\Version}{2.0}
 
 % Set up page dimensions for 1 column or 2 column formatting.
 \ifthenelse{\equal{\ncols}{one}}%
@@ -536,10 +536,10 @@ Appendix becomes Part 4.
 % |-----------------------------------|-------------------------------|
 % | left-even  centre-even right-even | left-odd centre-odd right-odd | 
 % '-------------------------------------------------------------------'
-\lhead[]{}                                                    % \lhead[left-header-even]{left-header-odd}
-\chead[NUT 2.7.4, ConfigExamples.A5.pdf version \Version]%
-      {NUT 2.7.4, ConfigExamples.A5.pdf version \Version}     % \chead[centre-header-even]{centre-header-odd}
-\rhead[]{}                                                    % \rhead[right-header-even]{right-header-odd}
+\lhead[NUT 2.7.4]{NUT 2.7.4}                                  % \lhead[left-header-even]{left-header-odd}
+\chead[ConfigExamples \Version]%
+      {ConfigExamples \Version}                               % \chead[centre-header-even]{centre-header-odd}
+\rhead[Build \isodate]{Build \isodate}                        % \rhead[right-header-even]{right-header-odd}
 \lfoot[]{}                                                    % \lfoot[left-footer-even]{left-footer-odd}
 \cfoot[\fancyplain{}{Page \thepage\ of \pageref{LastPage}}]%
       {\fancyplain{}{Page \thepage\ of \pageref{LastPage}}}   % \cfoot[centre-footer-even]{centre-footer-odd}

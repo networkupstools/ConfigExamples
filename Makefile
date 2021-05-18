@@ -80,4 +80,4 @@ clean: Makefile $(FIGURES)
 install: ConfigExamples.pdf Makefile $(FIGURES)
 	(cd $(SERVER) && mkdir -p $(DIR) )
 	rm -rf                      $(SERVER)/$(DIR)/CongigExamples.A5.pdf
-	cp ConfigExamples.A5.pdf    $(SERVER)/$(DIR)/ConfigExamples.A5.pdf
+	cp ConfigExamples.pdf       $(SERVER)/$(DIR)/ConfigExamples.A5.pdf
