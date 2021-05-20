@@ -1,6 +1,9 @@
+README 2021-05-20 Roger Price
+
             ConfigExamples
             --------------
-The files in this directory provide for the creation of a PDF
+
+The files in this directory are used by LaTeX to create a PDF
 file containing the NUT Configuration Examples document.
 
 The base document is a LaTeX markup ConfigExamples.tex with two 
@@ -8,12 +11,15 @@ specific style files lineprinter.sty, and wrapfig.sty which although
 featuring in the LaTeX Companion, now seems to be deprecated,
 so I provide a copy.
 
+By default the PDF is created for the A5 page size, more suitable 
+for reading on-screen.
+
 The .fig figures were created using the venerable xfig, and
-exported as .pdf for inclusion in the final document.
+exported as .pdf by xfig for inclusion in the final document.
 
 To build the document:
 
    make clean && make
 
 Latex will be run three times to ensure that all labels are 
-correctly referenced.
+correctly referenced.  The output is in file ConfigExamples.pdf.
