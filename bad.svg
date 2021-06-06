@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="148mm"
+   height="210mm"
+   viewBox="0 0 148 210"
+   version="1.1"
+   id="SVGRoot"
+   inkscape:version="0.92.1 r15371"
+   sodipodi:docname="bad.svg">
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.0022523"
+     inkscape:cx="279.68504"
+     inkscape:cy="396.85039"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1280"
+     inkscape:window-height="984"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:measure-start="0,0"
+     inkscape:measure-end="0,0" />
+  <defs
+     id="defs10">
+    <clipPath
+       id="cp0">
+      <path
+         id="path107"
+         d="M 123,483 H 5142 V 1905 H 123 z   M 4062,767 4069,796 4148,770 4145,757z"
+         clip-rule="evenodd" />
+    </clipPath>
+    <clipPath
+       id="cp1">
+      <path
+         id="path152"
+         d="M 123,483 H 5142 V 1905 H 123 z   M 4062,767 4069,796 4148,770 4145,757z"
+         clip-rule="evenodd" />
+    </clipPath>
+    <defs
+       id="defs110">
+      <clipPath
+         id="clipPath210">
+        <path
+           style="clip-rule:evenodd"
+           inkscape:connector-curvature="0"
+           d="M 123,483 H 5142 V 1905 H 123 Z m 3939,284 7,29 79,-26 -3,-13 z"
+           id="path208" />
+      </clipPath>
+    </defs>
+    <defs
+       id="defs155">
+      <clipPath
+         id="clipPath235">
+        <path
+           style="clip-rule:evenodd"
+           inkscape:connector-curvature="0"
+           d="M 123,483 H 5142 V 1905 H 123 Z m 3939,284 7,29 79,-26 -3,-13 z"
+           id="path233" />
+      </clipPath>
+    </defs>
+  </defs>
+  <metadata
+     id="metadata13">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1">
+    <rect
+       style="fill:#d8d8d8;stroke:#ffffff;stroke-width:0.17825152px;stroke-dasharray:0.8912576, 0.8912576"
+       x="35.473095"
+       y="54.840836"
+       width="87.231834"
+       height="31.082609"
+       id="rect45" />
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:8px"
+       points=" 135,720 1215,720"
+       id="polyline47"
+       transform="matrix(0.02228144,0,0,0.02228144,8.4011446,43.811523)" />
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:8px"
+       points=" 135,765 1215,765"
+       id="polyline49"
+       transform="matrix(0.02228144,0,0,0.02228144,8.4011446,43.811523)" />
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:8px"
+       points=" 135,675 1215,675"
+       id="polyline51"
+       transform="matrix(0.02228144,0,0,0.02228144,8.4011446,43.811523)" />
+    <rect
+       style="fill:#ffffff;stroke:#ff0000;stroke-width:0.17825152px"
+       x="39.483753"
+       y="57.848831"
+       width="24.063955"
+       height="24.063955"
+       id="rect53" />
+    <polygon
+       style="fill:#ff0000;stroke:#ff0000;stroke-width:8px;stroke-linejoin:bevel"
+       points="639,1414 639,1416 640,1418 640,1419 639,1420 639,1421 638,1421 638,1422 637,1422 636,1422 635,1422 634,1422 632,1422 631,1422 630,1421 629,1421 628,1421 626,1420 625,1420 624,1419 623,1418 622,1418 622,1417 621,1416 621,1415 620,1414 620,1413 621,1411 621,1410 622,1408 623,1406 624,1404 626,1401 628,1398 630,1395 638,1382 646,1369 653,1356 658,1344 661,1334 664,1324 667,1314 671,1304 678,1293 688,1281 702,1269 720,1260 739,1255 756,1253 769,1254 780,1255 788,1257 795,1260 802,1263 809,1267 819,1273 830,1281 843,1291 855,1305 863,1318 869,1331 873,1341 875,1349 877,1354 877,1358 878,1361 877,1365 877,1369 875,1376 873,1386 869,1400 863,1418 855,1440 844,1462 834,1482 824,1498 816,1510 809,1519 804,1525 799,1530 794,1535 788,1541 780,1550 769,1562 756,1578 739,1598 720,1620 698,1645 680,1666 667,1683 658,1696 653,1706 649,1714 645,1721 640,1729 632,1737 620,1745 604,1752 585,1755 570,1753 557,1747 548,1740 542,1733 539,1727 537,1720 536,1714 536,1707 534,1699 531,1689 526,1676 518,1661 507,1642 495,1620 482,1598 471,1578 462,1562 455,1551 450,1543 446,1538 442,1534 439,1530 436,1524 431,1516 426,1504 419,1487 412,1465 405,1440 399,1411 394,1386 391,1368 389,1355 388,1346 386,1339 385,1332 385,1324 387,1313 390,1298 396,1280 405,1260 414,1247 424,1236 433,1228 441,1222 449,1217 455,1213 460,1210 465,1208 470,1206 476,1204 483,1203 491,1202 501,1202 512,1204 526,1208 540,1215 555,1226 568,1240 578,1254 585,1267 590,1279 594,1290 596,1301 599,1312 601,1324 605,1336 610,1350 616,1365 623,1381 630,1395 632,1399 634,1403 636,1406 637,1409 638,1412 "
+       id="polygon55"
+       transform="matrix(0.02228144,0,0,0.02228144,8.4011446,43.811523)" />
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:8px"
+       points=" 2475,1080 2880,1080"
+       id="polyline57"
+       transform="matrix(0.02228144,0,0,0.02228144,8.4011446,43.811523)" />
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:8px"
+       points=" 2880,765 3105,765"
+       id="polyline59"
+       transform="matrix(0.02228144,0,0,0.02228144,8.4011446,43.811523)" />
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:8px"
+       points=" 2880,1215 3105,1215"
+       id="polyline61"
+       transform="matrix(0.02228144,0,0,0.02228144,8.4011446,43.811523)" />
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:8px"
+       points=" 2880,1800 2880,585"
+       id="polyline63"
+       transform="matrix(0.02228144,0,0,0.02228144,8.4011446,43.811523)" />
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:8px"
+       points=" 2880,1665 3105,1665"
+       id="polyline65"
+       transform="matrix(0.02228144,0,0,0.02228144,8.4011446,43.811523)" />
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:8px"
+       points=" 2880,1440 3105,1440"
+       id="polyline67"
+       transform="matrix(0.02228144,0,0,0.02228144,8.4011446,43.811523)" />
+    <polyline
+       style="fill:none;stroke:#ff0000;stroke-width:8px"
+       points=" 900,810 1305,855"
+       id="polyline69"
+       transform="matrix(0.02228144,0,0,0.02228144,8.4011446,43.811523)" />
+    <polyline
+       style="fill:none;stroke:#ff0000;stroke-width:8px"
+       points=" 855,1395 1305,1350"
+       id="polyline71"
+       transform="matrix(0.02228144,0,0,0.02228144,8.4011446,43.811523)" />
+    <text
+       style="font-style:normal;font-weight:normal;font-size:2.67377281px;font-family:'Helvetica Narrow';text-anchor:start;fill:#ff0000;stroke-width:0.02228144"
+       xml:space="preserve"
+       x="64.550377"
+       y="66.87281"
+       font-style="normal"
+       font-weight="normal"
+       font-size="120"
+       id="text73">port</text>
+    <text
+       style="font-style:normal;font-weight:normal;font-size:2.1390183px;font-family:'Helvetica Narrow';text-anchor:start;fill:#ff0000;stroke-width:0.02228144"
+       xml:space="preserve"
+       x="64.550377"
+       y="71.551918"
+       font-style="normal"
+       font-weight="normal"
+       font-size="96"
+       id="text75">3493</text>
+    <text
+       style="font-style:normal;font-weight:bold;font-size:3.20852733px;font-family:'Helvetica Narrow';text-anchor:start;fill:#ff0000;stroke-width:0.02228144"
+       xml:space="preserve"
+       x="53.521061"
+       y="62.862156"
+       font-style="normal"
+       font-weight="bold"
+       font-size="144"
+       id="text77">upsd</text>
+    <text
+       style="font-style:normal;font-weight:normal;font-size:2.67377281px;font-family:'Helvetica Narrow';text-anchor:start;fill:#ffffff;stroke-width:0.02228144"
+       xml:space="preserve"
+       x="19.430458"
+       y="77.902122"
+       font-style="normal"
+       font-weight="normal"
+       font-size="120"
+       id="text79">10m</text>
+    <text
+       style="font-style:normal;font-weight:normal;font-size:2.40639544px;font-family:'Helvetica Narrow';text-anchor:start;fill:#ff0000;stroke-width:0.02228144"
+       xml:space="preserve"
+       x="13.414469"
+       y="85.923447"
+       font-style="normal"
+       font-weight="normal"
+       font-size="108"
+       id="text81">heartbeat.conf</text>
+    <rect
+       style="fill:#ffffff;stroke:#0000ff;stroke-width:0.17825152px"
+       x="100.64631"
+       y="55.843502"
+       width="17.045301"
+       height="10.026648"
+       id="rect83" />
+    <rect
+       style="fill:#ffffff;stroke:#008f00;stroke-width:0.17825152px"
+       x="77.585014"
+       y="55.843502"
+       width="16.042637"
+       height="10.026648"
+       id="rect85" />
+    <rect
+       style="fill:#ffffff;stroke:#8f008f;stroke-width:0.17825152px"
+       x="95.63298"
+       y="69.880806"
+       width="25.06662"
+       height="14.037307"
+       rx="2.3395512"
+       id="rect87" />
+    <polygon
+       style="fill:#cccccc;stroke:#000000;stroke-width:8px"
+       points="900,495 450,495 450,945 405,945 405,990 945,990 945,945 900,945 "
+       id="polygon89"
+       transform="matrix(0.02228144,0,0,0.02228144,8.4011446,43.811523)" />
+    <rect
+       style="fill:#ffffff;stroke:#ff0000;stroke-width:0.17825152px"
+       x="37.478424"
+       y="58.851494"
+       width="13.034642"
+       height="7.0186534"
+       id="rect91" />
+    <rect
+       style="fill:#ffffff;stroke:#ff0000;stroke-width:0.17825152px"
+       x="37.478424"
+       y="69.880806"
+       width="13.034642"
+       height="7.0186534"
+       id="rect93" />
+    <text
+       style="font-style:normal;font-weight:normal;font-size:1.60426366px;font-family:'Helvetica Narrow';text-anchor:start;fill:#0000ff;stroke-width:0.02228144"
+       xml:space="preserve"
+       x="102.65163"
+       y="63.864819"
+       font-style="normal"
+       font-weight="normal"
+       font-size="72"
+       id="text95">CMDSCRIPT</text>
+    <rect
+       style="fill:#ffffff;stroke:#ff0000;stroke-width:0.17825152px"
+       x="77.585014"
+       y="68.878143"
+       width="13.034642"
+       height="4.0106592"
+       rx="2.3395512"
+       id="rect97" />
+    <rect
+       style="fill:#ffffff;stroke:#ff0000;stroke-width:0.17825152px"
+       x="77.585014"
+       y="73.891464"
+       width="13.034642"
+       height="4.0106592"
+       rx="2.3395512"
+       id="rect99" />
+    <rect
+       style="fill:#ffffff;stroke:#ff0000;stroke-width:0.17825152px"
+       x="77.585014"
+       y="78.904793"
+       width="14.037307"
+       height="4.0106592"
+       rx="2.3395512"
+       id="rect101" />
+    <polyline
+       style="fill:none;stroke:#8f008f;stroke-width:8px"
+       points=" 3915,1350 5040,1350"
+       id="polyline103"
+       transform="matrix(0.02228144,0,0,0.02228144,8.4011446,43.811523)" />
+    <circle
+       style="fill:#00d100;stroke:#008f00;stroke-width:0.17825152px"
+       cx="26.449112"
+       cy="55.843502"
+       r="0.51247311"
+       id="circle105" />
+    <polyline
+       style="fill:none;stroke:#0000ff;stroke-width:8px"
+       points=" 3735,855 4140,765"
+       clip-path="url(#cp0)"
+       id="polyline112"
+       transform="matrix(0.02228144,0,0,0.02228144,8.4011446,43.811523)" />
+    <polygon
+       style="fill:#0000ff;stroke:#0000ff;stroke-width:8px;stroke-miterlimit:8"
+       points="4069,796 4124,769 4062,767 "
+       stroke-miterlimit="8"
+       id="polygon114"
+       transform="matrix(0.02228144,0,0,0.02228144,8.4011446,43.811523)" />
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:8px;stroke-linejoin:bevel"
+       points=" 180,585 181,584 184,577 191,565 200,553 211,544 225,540 238,543 245,549 248,555  250,562 257,571 270,585 283,599 290,608 293,615 295,621 302,627 315,630 329,626  340,617 349,605 356,593 359,586 360,585"
+       id="polyline116"
+       transform="matrix(0.02228144,0,0,0.02228144,8.4011446,43.811523)" />
+    <text
+       style="font-style:normal;font-weight:bold;font-size:2.67377281px;font-family:'Helvetica Narrow';text-anchor:start;fill:#ff0000;stroke-width:0.02228144"
+       xml:space="preserve"
+       x="78.587677"
+       y="71.886139"
+       font-style="normal"
+       font-weight="bold"
+       font-size="120"
+       id="text118">upsc</text>
+    <text
+       style="font-style:normal;font-weight:bold;font-size:2.67377281px;font-family:'Helvetica Narrow';text-anchor:start;fill:#ff0000;stroke-width:0.02228144"
+       xml:space="preserve"
+       x="78.587677"
+       y="76.89946"
+       font-style="normal"
+       font-weight="bold"
+       font-size="120"
+       id="text120">upsrw</text>
+    <text
+       style="font-style:normal;font-weight:bold;font-size:2.67377281px;font-family:'Helvetica Narrow';text-anchor:start;fill:#ff0000;stroke-width:0.02228144"
+       xml:space="preserve"
+       x="78.587677"
+       y="81.912788"
+       font-style="normal"
+       font-weight="bold"
+       font-size="120"
+       id="text122">upscom</text>
+    <text
+       style="font-style:normal;font-weight:bold;font-size:2.67377281px;font-family:'Helvetica Narrow';text-anchor:start;fill:#0000ff;stroke-width:0.02228144"
+       xml:space="preserve"
+       x="101.64897"
+       y="59.85416"
+       font-style="normal"
+       font-weight="bold"
+       font-size="120"
+       id="text124">upssched</text>
+    <text
+       style="font-style:normal;font-weight:bold;font-size:2.94115019px;font-family:'Helvetica Narrow';text-anchor:start;fill:#008f00;stroke-width:0.02228144"
+       xml:space="preserve"
+       x="78.587677"
+       y="59.85416"
+       font-style="normal"
+       font-weight="bold"
+       font-size="132"
+       id="text126">upsmon</text>
+    <text
+       style="font-style:normal;font-weight:normal;font-size:2.1390183px;font-family:'Helvetica Narrow';text-anchor:start;fill:#8f008f;stroke-width:0.02228144"
+       xml:space="preserve"
+       x="99.643639"
+       y="72.888802"
+       font-style="normal"
+       font-weight="normal"
+       font-size="96"
+       id="text128">upssched-cmd</text>
+    <text
+       style="font-style:normal;font-weight:normal;font-size:2.1390183px;font-family:'Helvetica Narrow';text-anchor:start;fill:#8f008f;stroke-width:0.02228144"
+       xml:space="preserve"
+       x="100.64631"
+       y="80.910118"
+       font-style="normal"
+       font-weight="normal"
+       font-size="96"
+       id="text130">2, 1, 0, shutdown</text>
+    <text
+       style="font-style:normal;font-weight:normal;font-size:2.1390183px;font-family:'Helvetica Narrow';text-anchor:start;fill:#8f008f;stroke-width:0.02228144"
+       xml:space="preserve"
+       x="96.635651"
+       y="77.902122"
+       font-style="normal"
+       font-weight="normal"
+       font-size="96"
+       id="text132">shutdown-timer:</text>
+    <text
+       style="font-style:normal;font-weight:bold;font-size:2.1390183px;font-family:'Helvetica Narrow';text-anchor:start;fill:#000000;stroke-width:0.02228144"
+       xml:space="preserve"
+       x="19.430458"
+       y="61.859489"
+       font-style="normal"
+       font-weight="bold"
+       font-size="96"
+       id="text134">UPS-1</text>
+    <text
+       style="font-style:normal;font-weight:bold;font-size:2.1390183px;font-family:'Helvetica Narrow';text-anchor:start;fill:#ff0000;stroke-width:0.02228144"
+       xml:space="preserve"
+       x="38.481087"
+       y="61.859489"
+       font-style="normal"
+       font-weight="bold"
+       font-size="96"
+       id="text136">upsdrvctl</text>
+    <text
+       style="font-style:normal;font-weight:bold;font-size:1.87164092px;font-family:'Helvetica Narrow';text-anchor:start;fill:#ff0000;stroke-width:0.02228144"
+       xml:space="preserve"
+       x="38.481087"
+       y="64.867485"
+       font-style="normal"
+       font-weight="bold"
+       font-size="84"
+       id="text138">+ driver</text>
+    <text
+       style="font-style:normal;font-weight:bold;font-size:2.1390183px;font-family:'Helvetica Narrow';text-anchor:start;fill:#ff0000;stroke-width:0.02228144"
+       xml:space="preserve"
+       x="38.481087"
+       y="72.888802"
+       font-style="normal"
+       font-weight="bold"
+       font-size="96"
+       id="text140">upsdrvctl</text>
+    <text
+       style="font-style:normal;font-weight:bold;font-size:1.87164092px;font-family:'Helvetica Narrow';text-anchor:start;fill:#ff0000;stroke-width:0.02228144"
+       xml:space="preserve"
+       x="38.481087"
+       y="75.896797"
+       font-style="normal"
+       font-weight="bold"
+       font-size="84"
+       id="text142">+ driver</text>
+    <text
+       style="font-style:normal;font-weight:normal;font-size:1.87164092px;font-family:'Helvetica Narrow';text-anchor:start;fill:#ff0000;stroke-width:0.02228144"
+       xml:space="preserve"
+       x="40.48642"
+       y="68.878143"
+       font-style="normal"
+       font-weight="normal"
+       font-size="84"
+       id="text144">ups.status:  [OL  CHRG]</text>
+    <text
+       style="font-style:normal;font-weight:normal;font-size:1.87164092px;font-family:'Helvetica Narrow';text-anchor:start;fill:#ff0000;stroke-width:0.02228144"
+       xml:space="preserve"
+       x="52.518394"
+       y="76.89946"
+       font-style="normal"
+       font-weight="normal"
+       font-size="84"
+       id="text146">ups.status:</text>
+    <text
+       style="font-style:normal;font-weight:normal;font-size:1.87164092px;font-family:'Helvetica Narrow';text-anchor:start;fill:#ff0000;stroke-width:0.02228144"
+       xml:space="preserve"
+       x="43.494411"
+       y="79.907455"
+       font-style="normal"
+       font-weight="normal"
+       font-size="84"
+       id="text148">[OL] / [OB] / [OL] ...</text>
+    <text
+       style="font-style:normal;font-weight:normal;font-size:2.11666667px;font-family:Courier;text-anchor:start;fill:#000000;stroke-width:0.02228144;-inkscape-font-specification:'Courier, Normal';font-stretch:normal;font-variant:normal;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+       xml:space="preserve"
+       x="36.475758"
+       y="84.920776"
+       font-style="normal"
+       font-weight="normal"
+       font-size="60"
+       id="text150"><tspan
+         sodipodi:role="line"
+         id="tspan321">bad.svg</tspan></text>
+    <polyline
+       style="fill:none;stroke:#8f008f;stroke-width:8px;stroke-linejoin:bevel"
+       points=" 4770,855 4772,855 4776,855 4783,856 4791,856 4801,858 4811,860 4822,864 4832,869  4842,876 4852,886 4860,900 4867,919 4872,935 4874,946 4875,954 4875,960 4875,966  4874,975 4872,989 4867,1009 4860,1035 4852,1057 4842,1077 4832,1094 4822,1110  4811,1124 4801,1136 4791,1147 4770,1170"
+       clip-path="url(#cp1)"
+       id="polyline157"
+       transform="matrix(0.02228144,0,0,0.02228144,8.4011446,43.811523)" />
+    <polyline
+       style="fill:#8f008f;stroke:#8f008f;stroke-width:8px;stroke-miterlimit:8"
+       points=""
+       stroke-miterlimit="8"
+       id="polyline159"
+       transform="matrix(0.02228144,0,0,0.02228144,8.4011446,43.811523)" />
+    <text
+       style="font-style:normal;font-weight:normal;font-size:1.60426366px;font-family:'Helvetica Narrow';text-anchor:start;fill:#008f00;stroke-width:0.02228144"
+       xml:space="preserve"
+       x="79.590347"
+       y="63.864819"
+       font-style="normal"
+       font-weight="normal"
+       font-size="72"
+       id="text161">NOTIFYCMD</text>
+  </g>
+</svg>

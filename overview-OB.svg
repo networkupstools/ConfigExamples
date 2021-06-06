@@ -1,0 +1,1129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="148mm"
+   height="210mm"
+   viewBox="0 0 148 210"
+   version="1.1"
+   id="SVGRoot"
+   inkscape:version="0.92.1 r15371"
+   sodipodi:docname="overview-OB.svg">
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.0022523"
+     inkscape:cx="279.68504"
+     inkscape:cy="383.1592"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1280"
+     inkscape:window-height="984"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:measure-start="0,0"
+     inkscape:measure-end="0,0"
+     inkscape:snap-object-midpoints="true"
+     inkscape:snap-center="true" />
+  <defs
+     id="defs10">
+    <clipPath
+       id="cp0">
+      <path
+         id="path107"
+         d="M 123,483 H 5142 V 1905 H 123 z   M 4062,767 4069,796 4148,770 4145,757z"
+         clip-rule="evenodd" />
+    </clipPath>
+    <clipPath
+       id="cp1">
+      <path
+         id="path152"
+         d="M 123,483 H 5142 V 1905 H 123 z   M 4062,767 4069,796 4148,770 4145,757z"
+         clip-rule="evenodd" />
+    </clipPath>
+    <defs
+       id="defs110">
+      <clipPath
+         id="clipPath210">
+        <path
+           style="clip-rule:evenodd"
+           inkscape:connector-curvature="0"
+           d="M 123,483 H 5142 V 1905 H 123 Z m 3939,284 7,29 79,-26 -3,-13 z"
+           id="path208" />
+      </clipPath>
+    </defs>
+    <defs
+       id="defs155">
+      <clipPath
+         id="clipPath235">
+        <path
+           style="clip-rule:evenodd"
+           inkscape:connector-curvature="0"
+           d="M 123,483 H 5142 V 1905 H 123 Z m 3939,284 7,29 79,-26 -3,-13 z"
+           id="path233" />
+      </clipPath>
+    </defs>
+    <clipPath
+       id="cp0-9">
+      <path
+         id="path492"
+         d="M 120,8 H 5277 V 4110 H 120 z   M 3060,2681 3032,2669 3006,2748 3018,2754z   M 3150,2404 3178,2416 3204,2337 3192,2331z"
+         clip-rule="evenodd" />
+    </clipPath>
+    <clipPath
+       id="cp1-2">
+      <path
+         id="path503"
+         d="M 120,8 H 5277 V 4110 H 120 z   M 2964,1642 2987,1622 2926,1565 2915,1574z   M 3246,1913 3223,1933 3284,1990 3295,1981z"
+         clip-rule="evenodd" />
+    </clipPath>
+    <polygon
+       id="p0"
+       points=" 1215,540 1218,537 1224,531 1230,525 1237,518 1246,509 1260,495 1273,482 1280,477  1283,476 1285,475 1292,468 1305,450 1313,436 1320,425 1323,416 1324,410 1324,405  1324,400 1325,394 1330,385 1338,374 1350,360 1364,348 1376,340 1385,335 1393,334  1399,334 1405,334 1411,333 1420,330 1430,323 1440,315 1448,305 1448,298 1442,294  1433,293 1424,291 1420,287 1424,280 1440,270 1457,263 1474,257 1490,253 1504,252  1515,251 1526,251 1537,251 1549,250 1564,248 1581,243 1600,235 1620,225 1639,211  1648,200 1649,192 1644,187 1635,184 1627,180 1622,175 1625,166 1639,152 1665,135  1686,124 1706,114 1724,105 1738,98 1749,93 1756,89 1762,85 1766,83 1771,80 1778,77  1789,73 1804,69 1826,64 1855,58 1892,51 1935,45 1971,41 2007,38 2040,35 2070,33  2096,30 2119,29 2139,27 2156,25 2172,24 2186,22 2201,21 2215,21 2231,20 2249,20  2268,21 2290,23 2314,26 2338,31 2363,37 2385,45 2409,59 2422,74 2426,89 2423,101  2414,112 2402,122 2389,131 2375,141 2361,151 2350,162 2341,176 2336,191 2336,208  2340,225 2349,242 2360,253 2371,260 2380,263 2389,263 2396,262 2404,261 2413,260  2425,261 2439,263 2456,266 2475,270 2500,274 2514,275 2520,273 2520,270 2520,267  2526,265 2540,266 2565,270 2587,275 2605,279 2617,282 2624,284 2629,285 2634,286  2641,289 2654,294 2674,303 2700,315 2722,326 2740,336 2754,343 2764,348 2770,351  2775,353 2780,354 2786,358 2794,364 2805,373 2819,387 2835,405 2849,424 2859,440  2867,452 2873,460 2877,465 2880,469 2883,473 2885,478 2886,487 2887,500 2885,518  2880,540 2871,562 2859,580 2847,594 2836,604 2826,610 2816,615 2806,620 2796,626  2784,634 2771,645 2758,659 2745,675 2733,694 2730,704 2734,708 2741,709 2749,709  2753,710 2753,714 2745,720 2732,724 2720,725 2709,723 2700,720 2691,717 2680,715  2668,716 2655,720 2652,721 2650,723 2649,725 2648,726 2648,728 2649,730 2651,731  2653,733 2656,734 2660,735 2664,737 2669,738 2673,739 2679,740 2684,741 2689,743  2694,744 2699,745 2703,746 2707,747 2710,748 2712,750 2714,751 2714,752 2713,754  2711,755 2706,757 2700,759 2692,760 2682,762 2669,764 2655,765 2631,767 2605,768  2578,768 2552,768 2527,766 2505,764 2484,761 2464,758 2446,754 2428,750 2411,746  2394,742 2377,739 2358,736 2338,734 2317,733 2294,733 2268,735 2242,739 2214,745  2186,754 2160,765 2133,781 2112,799 2098,817 2090,833 2087,849 2088,863 2091,876  2097,888 2104,900 2111,912 2118,924 2124,937 2128,951 2130,967 2130,983 2127,1001  2122,1019 2115,1035 2109,1046 2103,1055 2097,1062 2091,1067 2086,1070 2082,1072  2078,1072 2075,1072 2072,1072 2069,1070 2066,1069 2064,1067 2061,1065 2058,1063  2055,1061 2051,1058 2048,1055 2043,1053 2039,1049 2034,1045 2029,1041 2025,1035  2018,1020 2015,1006 2015,994 2018,986 2021,979 2025,971 2028,961 2029,947 2028,926  2025,900 2022,883 2020,868 2019,856 2020,845 2023,837 2027,831 2031,826 2036,821  2041,817 2044,812 2045,807 2043,801 2036,793 2024,784 2005,774 1980,765 1956,759  1931,754 1906,751 1883,750 1862,749 1842,750 1825,751 1810,753 1795,755 1781,758  1767,760 1753,762 1737,765 1719,767 1700,768 1678,769 1654,769 1628,768 1601,767  1575,765 1533,760 1509,755 1502,750 1506,746 1515,742 1525,739 1531,735 1527,730  1512,725 1485,720 1462,717 1439,716 1420,716 1403,717 1390,719 1379,721 1369,724  1359,726 1348,729 1335,730 1319,730 1301,729 1280,725 1260,720 1243,713 1230,705  1222,699 1218,693 1216,687 1217,683 1219,679 1221,675 1223,670 1223,664 1223,657  1221,649 1218,640 1215,630 1210,612 1210,605 1211,604 1213,603 1215,598 1215,585  1215,572 1213,565 1211,562 1210,560 1210,553 1215,540 1224,526 1233,517 1241,510  1249,504 1256,498 1260,495 1256,499 1247,508 1237,518 1228,527 1219,536" />
+    <pattern
+       height="402"
+       width="402"
+       y="0"
+       x="0"
+       patternUnits="userSpaceOnUse"
+       id="tile0">
+      <g
+         id="g519"
+         fill="none"
+         stroke="#ffd600"
+         stroke-width="7.5">
+        <path
+           id="path517"
+           d="M30,-1 V403 M164,-1 V403 M298,-1 V403 M30,164 l134,67 M164,30 l134,67 M298,298 l120,60 M30,365 l-40,-20" />
+      </g>
+    </pattern>
+    <clipPath
+       id="cp2">
+      <path
+         id="path614"
+         d="M 120,8 H 5277 V 4110 H 120 z   M 4288,2937 4299,2965 4374,2929 4369,2916z   M 3246,1913 3223,1933 3284,1990 3295,1981z"
+         clip-rule="evenodd" />
+    </clipPath>
+    <clipPath
+       id="cp3">
+      <path
+         id="path681"
+         d="M 120,8 H 5277 V 4110 H 120 z   M 4288,2937 4299,2965 4374,2929 4369,2916z   M 3246,1913 3223,1933 3284,1990 3295,1981z"
+         clip-rule="evenodd" />
+    </clipPath>
+    <defs
+       id="defs495">
+      <clipPath
+         id="clipPath737">
+        <path
+           style="clip-rule:evenodd"
+           inkscape:connector-curvature="0"
+           d="M 120,8 H 5277 V 4110 H 120 Z m 2940,2673 -28,-12 -26,79 12,6 z m 90,-277 28,12 26,-79 -12,-6 z"
+           id="path735" />
+      </clipPath>
+    </defs>
+    <defs
+       id="defs506">
+      <clipPath
+         id="clipPath745">
+        <path
+           style="clip-rule:evenodd"
+           inkscape:connector-curvature="0"
+           d="M 120,8 H 5277 V 4110 H 120 Z m 2844,1634 23,-20 -61,-57 -11,9 z m 282,271 -23,20 61,57 11,-9 z"
+           id="path743" />
+      </clipPath>
+    </defs>
+    <defs
+       id="defs522">
+      <polygon
+         points="1237,518 1246,509 1260,495 1273,482 1280,477 1283,476 1285,475 1292,468 1305,450 1313,436 1320,425 1323,416 1324,410 1324,405 1324,400 1325,394 1330,385 1338,374 1350,360 1364,348 1376,340 1385,335 1393,334 1399,334 1405,334 1411,333 1420,330 1430,323 1440,315 1448,305 1448,298 1442,294 1433,293 1424,291 1420,287 1424,280 1440,270 1457,263 1474,257 1490,253 1504,252 1515,251 1526,251 1537,251 1549,250 1564,248 1581,243 1600,235 1620,225 1639,211 1648,200 1649,192 1644,187 1635,184 1627,180 1622,175 1625,166 1639,152 1665,135 1686,124 1706,114 1724,105 1738,98 1749,93 1756,89 1762,85 1766,83 1771,80 1778,77 1789,73 1804,69 1826,64 1855,58 1892,51 1935,45 1971,41 2007,38 2040,35 2070,33 2096,30 2119,29 2139,27 2156,25 2172,24 2186,22 2201,21 2215,21 2231,20 2249,20 2268,21 2290,23 2314,26 2338,31 2363,37 2385,45 2409,59 2422,74 2426,89 2423,101 2414,112 2402,122 2389,131 2375,141 2361,151 2350,162 2341,176 2336,191 2336,208 2340,225 2349,242 2360,253 2371,260 2380,263 2389,263 2396,262 2404,261 2413,260 2425,261 2439,263 2456,266 2475,270 2500,274 2514,275 2520,273 2520,270 2520,267 2526,265 2540,266 2565,270 2587,275 2605,279 2617,282 2624,284 2629,285 2634,286 2641,289 2654,294 2674,303 2700,315 2722,326 2740,336 2754,343 2764,348 2770,351 2775,353 2780,354 2786,358 2794,364 2805,373 2819,387 2835,405 2849,424 2859,440 2867,452 2873,460 2877,465 2880,469 2883,473 2885,478 2886,487 2887,500 2885,518 2880,540 2871,562 2859,580 2847,594 2836,604 2826,610 2816,615 2806,620 2796,626 2784,634 2771,645 2758,659 2745,675 2733,694 2730,704 2734,708 2741,709 2749,709 2753,710 2753,714 2745,720 2732,724 2720,725 2709,723 2700,720 2691,717 2680,715 2668,716 2655,720 2652,721 2650,723 2649,725 2648,726 2648,728 2649,730 2651,731 2653,733 2656,734 2660,735 2664,737 2669,738 2673,739 2679,740 2684,741 2689,743 2694,744 2699,745 2703,746 2707,747 2710,748 2712,750 2714,751 2714,752 2713,754 2711,755 2706,757 2700,759 2692,760 2682,762 2669,764 2655,765 2631,767 2605,768 2578,768 2552,768 2527,766 2505,764 2484,761 2464,758 2446,754 2428,750 2411,746 2394,742 2377,739 2358,736 2338,734 2317,733 2294,733 2268,735 2242,739 2214,745 2186,754 2160,765 2133,781 2112,799 2098,817 2090,833 2087,849 2088,863 2091,876 2097,888 2104,900 2111,912 2118,924 2124,937 2128,951 2130,967 2130,983 2127,1001 2122,1019 2115,1035 2109,1046 2103,1055 2097,1062 2091,1067 2086,1070 2082,1072 2078,1072 2075,1072 2072,1072 2069,1070 2066,1069 2064,1067 2061,1065 2058,1063 2055,1061 2051,1058 2048,1055 2043,1053 2039,1049 2034,1045 2029,1041 2025,1035 2018,1020 2015,1006 2015,994 2018,986 2021,979 2025,971 2028,961 2029,947 2028,926 2025,900 2022,883 2020,868 2019,856 2020,845 2023,837 2027,831 2031,826 2036,821 2041,817 2044,812 2045,807 2043,801 2036,793 2024,784 2005,774 1980,765 1956,759 1931,754 1906,751 1883,750 1862,749 1842,750 1825,751 1810,753 1795,755 1781,758 1767,760 1753,762 1737,765 1719,767 1700,768 1678,769 1654,769 1628,768 1601,767 1575,765 1533,760 1509,755 1502,750 1506,746 1515,742 1525,739 1531,735 1527,730 1512,725 1485,720 1462,717 1439,716 1420,716 1403,717 1390,719 1379,721 1369,724 1359,726 1348,729 1335,730 1319,730 1301,729 1280,725 1260,720 1243,713 1230,705 1222,699 1218,693 1216,687 1217,683 1219,679 1221,675 1223,670 1223,664 1223,657 1221,649 1218,640 1215,630 1210,612 1210,605 1211,604 1213,603 1215,598 1215,585 1215,572 1213,565 1211,562 1210,560 1210,553 1215,540 1224,526 1233,517 1241,510 1249,504 1256,498 1260,495 1256,499 1247,508 1237,518 1228,527 1219,536 1215,540 1218,537 1224,531 1230,525 "
+         id="polygon752" />
+      <pattern
+         id="pattern758"
+         patternUnits="userSpaceOnUse"
+         x="0"
+         y="0"
+         width="402"
+         height="402">
+        <g
+           stroke-width="7.5"
+           stroke="#ffd600"
+           fill="none"
+           id="g756">
+          <path
+             d="M30,-1 V403 M164,-1 V403 M298,-1 V403 M30,164 l134,67 M164,30 l134,67 M298,298 l120,60 M30,365 l-40,-20"
+             id="path754" />
+        </g>
+      </pattern>
+    </defs>
+    <defs
+       id="defs617">
+      <clipPath
+         id="clipPath808">
+        <path
+           style="clip-rule:evenodd"
+           inkscape:connector-curvature="0"
+           d="M 120,8 H 5277 V 4110 H 120 Z m 4168,2929 11,28 75,-36 -5,-13 z m -1042,-1024 -23,20 61,57 11,-9 z"
+           id="path806" />
+      </clipPath>
+    </defs>
+    <defs
+       id="defs684">
+      <clipPath
+         id="clipPath844">
+        <path
+           style="clip-rule:evenodd"
+           inkscape:connector-curvature="0"
+           d="M 120,8 H 5277 V 4110 H 120 Z m 4168,2929 11,28 75,-36 -5,-13 z m -1042,-1024 -23,20 61,57 11,-9 z"
+           id="path842" />
+      </clipPath>
+    </defs>
+    <clipPath
+       id="cp0-8">
+      <path
+         id="path1253"
+         d="M 378,618 H 2647 V 2667 H 378 z   M 1410,1949 1380,1949 1388,2032 1402,2032z   M 1380,784 1410,784 1402,713 1388,713z"
+         clip-rule="evenodd" />
+    </clipPath>
+    <clipPath
+       id="cp1-7">
+      <path
+         id="path1270"
+         d="M 378,618 H 2647 V 2667 H 378 z   M 420,2579 390,2579 398,2662 412,2662z   M 390,784 420,784 412,713 398,713z"
+         clip-rule="evenodd" />
+    </clipPath>
+    <clipPath
+       id="cp2-1">
+      <path
+         id="path1281"
+         d="M 378,618 H 2647 V 2667 H 378 z   M 1859,888 1825,859 1763,955 1774,964z   M 390,784 420,784 412,713 398,713z"
+         clip-rule="evenodd" />
+    </clipPath>
+    <defs
+       id="defs1256">
+      <clipPath
+         id="clipPath1358">
+        <path
+           style="clip-rule:evenodd"
+           inkscape:connector-curvature="0"
+           d="M 378,618 H 2647 V 2667 H 378 Z m 1032,1331 h -30 l 8,83 h 14 z M 1380,784 h 30 l -8,-71 h -14 z"
+           id="path1356" />
+      </clipPath>
+    </defs>
+    <defs
+       id="defs1273">
+      <clipPath
+         id="clipPath1369">
+        <path
+           style="clip-rule:evenodd"
+           inkscape:connector-curvature="0"
+           d="M 378,618 H 2647 V 2667 H 378 Z m 42,1961 h -30 l 8,83 h 14 z M 390,784 h 30 l -8,-71 h -14 z"
+           id="path1367" />
+      </clipPath>
+    </defs>
+    <defs
+       id="defs1284">
+      <clipPath
+         id="clipPath1377">
+        <path
+           style="clip-rule:evenodd"
+           inkscape:connector-curvature="0"
+           d="M 378,618 H 2647 V 2667 H 378 Z m 1481,270 -34,-29 -62,96 11,9 z M 390,784 h 30 l -8,-71 h -14 z"
+           id="path1375" />
+      </clipPath>
+    </defs>
+    <clipPath
+       id="cp0-7">
+      <path
+         id="path1978"
+         d="M 123,483 H 5097 V 2037 H 123 z   M 4062,767 4069,796 4148,770 4145,757z"
+         clip-rule="evenodd" />
+    </clipPath>
+    <clipPath
+       id="cp1-27">
+      <path
+         id="path2025"
+         d="M 123,483 H 5097 V 2037 H 123 z   M 4062,767 4069,796 4148,770 4145,757z"
+         clip-rule="evenodd" />
+    </clipPath>
+    <defs
+       id="defs1981">
+      <clipPath
+         id="clipPath2084">
+        <path
+           style="clip-rule:evenodd"
+           inkscape:connector-curvature="0"
+           d="M 123,483 H 5097 V 2037 H 123 Z m 3939,284 7,29 79,-26 -3,-13 z"
+           id="path2082" />
+      </clipPath>
+    </defs>
+    <defs
+       id="defs2028">
+      <clipPath
+         id="clipPath2110">
+        <path
+           style="clip-rule:evenodd"
+           inkscape:connector-curvature="0"
+           d="M 123,483 H 5097 V 2037 H 123 Z m 3939,284 7,29 79,-26 -3,-13 z"
+           id="path2108" />
+      </clipPath>
+    </defs>
+    <clipPath
+       id="cp0-2">
+      <path
+         id="path2314"
+         d="M 2235,510 H 6407 V 2850 H 2235 z   M 5965,1418 5936,1415 5928,1444 5983,1494 5994,1487z"
+         clip-rule="evenodd" />
+    </clipPath>
+    <clipPath
+       id="cp1-26">
+      <path
+         id="path2323"
+         d="M 2235,510 H 6407 V 2850 H 2235 z   M 5598,2354 5595,2325 5566,2322 5525,2385 5535,2395z"
+         clip-rule="evenodd" />
+    </clipPath>
+    <clipPath
+       id="cp2-10">
+      <path
+         id="path2332"
+         d="M 2235,510 H 6407 V 2850 H 2235 z   M 3128,1554 3105,1535 3083,1554 3098,1627 3112,1627z"
+         clip-rule="evenodd" />
+    </clipPath>
+    <clipPath
+       id="cp3-6">
+      <path
+         id="path2341"
+         d="M 2235,510 H 6407 V 2850 H 2235 z   M 3217,1914 3187,1913 3181,1942 3239,1989 3249,1981z"
+         clip-rule="evenodd" />
+    </clipPath>
+    <clipPath
+       id="cp4">
+      <path
+         id="path2350"
+         d="M 2235,510 H 6407 V 2850 H 2235 z   M 4450,1910 4422,1901 4409,1927 4451,1989 4464,1984z"
+         clip-rule="evenodd" />
+    </clipPath>
+    <clipPath
+       id="cp5">
+      <path
+         id="path2359"
+         d="M 2235,510 H 6407 V 2850 H 2235 z   M 4007,2329 3979,2338 3982,2367 4052,2394 4059,2383z"
+         clip-rule="evenodd" />
+    </clipPath>
+    <clipPath
+       id="cp6">
+      <path
+         id="path2368"
+         d="M 2235,510 H 6407 V 2850 H 2235 z   M 3128,1194 3105,1175 3083,1194 3098,1267 3112,1267z"
+         clip-rule="evenodd" />
+    </clipPath>
+    <clipPath
+       id="cp7">
+      <path
+         id="path2377"
+         d="M 2235,510 H 6407 V 2850 H 2235 z   M 4140,920 4113,909 4098,934 4136,999 4149,994z"
+         clip-rule="evenodd" />
+    </clipPath>
+    <clipPath
+       id="cp8">
+      <path
+         id="path2386"
+         d="M 2235,510 H 6407 V 2850 H 2235 z   M 4029,731 4044,706 4022,687 3952,714 3954,728z"
+         clip-rule="evenodd" />
+    </clipPath>
+    <defs
+       id="defs2317">
+      <clipPath
+         id="clipPath2449">
+        <path
+           style="clip-rule:evenodd"
+           inkscape:connector-curvature="0"
+           d="M 2235,510 H 6407 V 2850 H 2235 Z m 3730,908 -29,-3 -8,29 55,50 11,-7 z"
+           id="path2447" />
+      </clipPath>
+    </defs>
+    <defs
+       id="defs2326">
+      <clipPath
+         id="clipPath2456">
+        <path
+           style="clip-rule:evenodd"
+           inkscape:connector-curvature="0"
+           d="M 2235,510 H 6407 V 2850 H 2235 Z m 3363,1844 -3,-29 -29,-3 -41,63 10,10 z"
+           id="path2454" />
+      </clipPath>
+    </defs>
+    <defs
+       id="defs2335">
+      <clipPath
+         id="clipPath2463">
+        <path
+           style="clip-rule:evenodd"
+           inkscape:connector-curvature="0"
+           d="M 2235,510 H 6407 V 2850 H 2235 Z m 893,1044 -23,-19 -22,19 15,73 h 14 z"
+           id="path2461" />
+      </clipPath>
+    </defs>
+    <defs
+       id="defs2344">
+      <clipPath
+         id="clipPath2470">
+        <path
+           style="clip-rule:evenodd"
+           inkscape:connector-curvature="0"
+           d="M 2235,510 H 6407 V 2850 H 2235 Z m 982,1404 -30,-1 -6,29 58,47 10,-8 z"
+           id="path2468" />
+      </clipPath>
+    </defs>
+    <defs
+       id="defs2353">
+      <clipPath
+         id="clipPath2477">
+        <path
+           style="clip-rule:evenodd"
+           inkscape:connector-curvature="0"
+           d="M 2235,510 H 6407 V 2850 H 2235 Z m 2215,1400 -28,-9 -13,26 42,62 13,-5 z"
+           id="path2475" />
+      </clipPath>
+    </defs>
+    <defs
+       id="defs2362">
+      <clipPath
+         id="clipPath2484">
+        <path
+           style="clip-rule:evenodd"
+           inkscape:connector-curvature="0"
+           d="M 2235,510 H 6407 V 2850 H 2235 Z m 1772,1819 -28,9 3,29 70,27 7,-11 z"
+           id="path2482" />
+      </clipPath>
+    </defs>
+    <defs
+       id="defs2371">
+      <clipPath
+         id="clipPath2491">
+        <path
+           style="clip-rule:evenodd"
+           inkscape:connector-curvature="0"
+           d="M 2235,510 H 6407 V 2850 H 2235 Z m 893,684 -23,-19 -22,19 15,73 h 14 z"
+           id="path2489" />
+      </clipPath>
+    </defs>
+    <defs
+       id="defs2380">
+      <clipPath
+         id="clipPath2498">
+        <path
+           style="clip-rule:evenodd"
+           inkscape:connector-curvature="0"
+           d="M 2235,510 H 6407 V 2850 H 2235 Z m 1905,410 -27,-11 -15,25 38,65 13,-5 z"
+           id="path2496" />
+      </clipPath>
+    </defs>
+    <defs
+       id="defs2389">
+      <clipPath
+         id="clipPath2505">
+        <path
+           style="clip-rule:evenodd"
+           inkscape:connector-curvature="0"
+           d="M 2235,510 H 6407 V 2850 H 2235 Z m 1794,221 15,-25 -22,-19 -70,27 2,14 z"
+           id="path2503" />
+      </clipPath>
+    </defs>
+    <clipPath
+       id="cp0-1">
+      <path
+         id="path2724"
+         d="M 123,1137 H 5637 V 3342 H 123 z   M 3003,1571 2995,1542 2917,1570 2920,1583z   M 3027,1534 3035,1563 3113,1535 3110,1522z"
+         clip-rule="evenodd" />
+    </clipPath>
+    <clipPath
+       id="cp1-5">
+      <path
+         id="path2737"
+         d="M 123,1137 H 5637 V 3342 H 123 z   M 3801,1495 3793,1523 3875,1538 3878,1525z   M 3624,1475 3632,1447 3550,1432 3547,1445z"
+         clip-rule="evenodd" />
+    </clipPath>
+    <clipPath
+       id="cp2-9">
+      <path
+         id="path2748"
+         d="M 123,1137 H 5637 V 3342 H 123 z   M 3801,1495 3793,1523 3875,1538 3878,1525z   M 3028,2194 3062,2169 3037,2134 2917,2129 2912,2164z"
+         clip-rule="evenodd" />
+    </clipPath>
+    <clipPath
+       id="cp3-4">
+      <path
+         id="path2803"
+         d="M 123,1137 H 5637 V 3342 H 123 z   M 1090,2654 1046,2660 1074,2753 1088,2751z   M 3028,2194 3062,2169 3037,2134 2917,2129 2912,2164z"
+         clip-rule="evenodd" />
+    </clipPath>
+    <defs
+       id="defs2727">
+      <clipPath
+         id="clipPath2878">
+        <path
+           style="clip-rule:evenodd"
+           inkscape:connector-curvature="0"
+           d="M 123,1137 H 5637 V 3342 H 123 Z m 2880,434 -8,-29 -78,28 3,13 z m 24,-37 8,29 78,-28 -3,-13 z"
+           id="path2876" />
+      </clipPath>
+    </defs>
+    <defs
+       id="defs2740">
+      <clipPath
+         id="clipPath2887">
+        <path
+           style="clip-rule:evenodd"
+           inkscape:connector-curvature="0"
+           d="M 123,1137 H 5637 V 3342 H 123 Z m 3678,358 -8,28 82,15 3,-13 z m -177,-20 8,-28 -82,-15 -3,13 z"
+           id="path2885" />
+      </clipPath>
+    </defs>
+    <defs
+       id="defs2751">
+      <clipPath
+         id="clipPath2895">
+        <path
+           style="clip-rule:evenodd"
+           inkscape:connector-curvature="0"
+           d="M 123,1137 H 5637 V 3342 H 123 Z m 3678,358 -8,28 82,15 3,-13 z m -773,699 34,-25 -25,-35 -120,-5 -5,35 z"
+           id="path2893" />
+      </clipPath>
+    </defs>
+    <defs
+       id="defs2806">
+      <clipPath
+         id="clipPath2925">
+        <path
+           style="clip-rule:evenodd"
+           inkscape:connector-curvature="0"
+           d="M 123,1137 H 5637 V 3342 H 123 Z m 967,1517 -44,6 28,93 14,-2 z m 1938,-460 34,-25 -25,-35 -120,-5 -5,35 z"
+           id="path2923" />
+      </clipPath>
+    </defs>
+    <clipPath
+       id="cp0-90">
+      <path
+         id="path3473"
+         d="M 570,990 H 6902 V 2112 H 570 z   M 1508,1639 1463,1639 1478,1717 1492,1717z"
+         clip-rule="evenodd" />
+    </clipPath>
+    <clipPath
+       id="cp1-9">
+      <path
+         id="path3482"
+         d="M 570,990 H 6902 V 2112 H 570 z   M 6008,1639 5963,1639 5978,1717 5992,1717z"
+         clip-rule="evenodd" />
+    </clipPath>
+    <clipPath
+       id="cp2-17">
+      <path
+         id="path3493"
+         d="M 570,990 H 6902 V 2112 H 570 z   M 833,1639 788,1639 803,1717 817,1717z"
+         clip-rule="evenodd" />
+    </clipPath>
+    <clipPath
+       id="cp3-7">
+      <path
+         id="path3502"
+         d="M 570,990 H 6902 V 2112 H 570 z   M 3533,1639 3488,1639 3503,1717 3517,1717z"
+         clip-rule="evenodd" />
+    </clipPath>
+    <defs
+       id="defs3476">
+      <clipPath
+         id="clipPath3583">
+        <path
+           style="clip-rule:evenodd"
+           inkscape:connector-curvature="0"
+           d="M 570,990 H 6902 V 2112 H 570 Z m 938,649 h -45 l 15,78 h 14 z"
+           id="path3581" />
+      </clipPath>
+    </defs>
+    <defs
+       id="defs3485">
+      <clipPath
+         id="clipPath3590">
+        <path
+           style="clip-rule:evenodd"
+           inkscape:connector-curvature="0"
+           d="M 570,990 H 6902 V 2112 H 570 Z m 5438,649 h -45 l 15,78 h 14 z"
+           id="path3588" />
+      </clipPath>
+    </defs>
+    <defs
+       id="defs3496">
+      <clipPath
+         id="clipPath3598">
+        <path
+           style="clip-rule:evenodd"
+           inkscape:connector-curvature="0"
+           d="M 570,990 H 6902 V 2112 H 570 Z m 263,649 h -45 l 15,78 h 14 z"
+           id="path3596" />
+      </clipPath>
+    </defs>
+    <defs
+       id="defs3505">
+      <clipPath
+         id="clipPath3605">
+        <path
+           style="clip-rule:evenodd"
+           inkscape:connector-curvature="0"
+           d="M 570,990 H 6902 V 2112 H 570 Z m 2963,649 h -45 l 15,78 h 14 z"
+           id="path3603" />
+      </clipPath>
+    </defs>
+    <clipPath
+       id="cp0-11">
+      <path
+         id="path3831"
+         d="M 123,213 H 5322 V 3522 H 123 z   M 2809,1562 2827,1586 2889,1532 2882,1521z   M 2636,1723 2618,1699 2556,1753 2563,1764z"
+         clip-rule="evenodd" />
+    </clipPath>
+    <clipPath
+       id="cp1-59">
+      <path
+         id="path3842"
+         d="M 123,213 H 5322 V 3522 H 123 z   M 2665,2035 2682,2010 2608,1971 2601,1982z   M 2825,2105 2808,2130 2882,2169 2889,2158z"
+         clip-rule="evenodd" />
+    </clipPath>
+    <clipPath
+       id="cp2-7">
+      <path
+         id="path3853"
+         d="M 123,213 H 5322 V 3522 H 123 z   M 2907,1920 2913,1890 2830,1882 2827,1895z   M 3213,1950 3207,1980 3290,1988 3293,1975z"
+         clip-rule="evenodd" />
+    </clipPath>
+    <clipPath
+       id="cp3-76">
+      <path
+         id="path3864"
+         d="M 123,213 H 5322 V 3522 H 123 z   M 2815,1968 2823,1939 2740,1927 2737,1940z   M 3035,1992 3027,2021 3110,2033 3113,2020z"
+         clip-rule="evenodd" />
+    </clipPath>
+    <clipPath
+       id="cp4-7">
+      <path
+         id="path3931"
+         d="M 123,213 H 5322 V 3522 H 123 z   M 4066,561 4074,590 4151,559 4148,546z   M 3035,1992 3027,2021 3110,2033 3113,2020z"
+         clip-rule="evenodd" />
+    </clipPath>
+    <clipPath
+       id="cp5-3">
+      <path
+         id="path3940"
+         d="M 123,213 H 5322 V 3522 H 123 z   M 4064,2399 4073,2428 4149,2394 4145,2382z   M 3035,1992 3027,2021 3110,2033 3113,2020z"
+         clip-rule="evenodd" />
+    </clipPath>
+    <clipPath
+       id="cp6-6">
+      <path
+         id="path4001"
+         d="M 123,213 H 5322 V 3522 H 123 z   M 4064,2399 4073,2428 4149,2394 4145,2382z   M 3035,1992 3027,2021 3110,2033 3113,2020z"
+         clip-rule="evenodd" />
+    </clipPath>
+    <clipPath
+       id="cp7-5">
+      <path
+         id="path4010"
+         d="M 123,213 H 5322 V 3522 H 123 z   M 4064,2399 4073,2428 4149,2394 4145,2382z   M 3035,1992 3027,2021 3110,2033 3113,2020z"
+         clip-rule="evenodd" />
+    </clipPath>
+    <defs
+       id="defs3834">
+      <clipPath
+         id="clipPath4075">
+        <path
+           style="clip-rule:evenodd"
+           inkscape:connector-curvature="0"
+           d="M 123,213 H 5322 V 3522 H 123 Z m 2686,1349 18,24 62,-54 -7,-11 z m -173,161 -18,-24 -62,54 7,11 z"
+           id="path4073" />
+      </clipPath>
+    </defs>
+    <defs
+       id="defs3845">
+      <clipPath
+         id="clipPath4083">
+        <path
+           style="clip-rule:evenodd"
+           inkscape:connector-curvature="0"
+           d="M 123,213 H 5322 V 3522 H 123 Z m 2542,1822 17,-25 -74,-39 -7,11 z m 160,70 -17,25 74,39 7,-11 z"
+           id="path4081" />
+      </clipPath>
+    </defs>
+    <defs
+       id="defs3856">
+      <clipPath
+         id="clipPath4091">
+        <path
+           style="clip-rule:evenodd"
+           inkscape:connector-curvature="0"
+           d="M 123,213 H 5322 V 3522 H 123 Z m 2784,1707 6,-30 -83,-8 -3,13 z m 306,30 -6,30 83,8 3,-13 z"
+           id="path4089" />
+      </clipPath>
+    </defs>
+    <defs
+       id="defs3867">
+      <clipPath
+         id="clipPath4099">
+        <path
+           style="clip-rule:evenodd"
+           inkscape:connector-curvature="0"
+           d="M 123,213 H 5322 V 3522 H 123 Z m 2692,1755 8,-29 -83,-12 -3,13 z m 220,24 -8,29 83,12 3,-13 z"
+           id="path4097" />
+      </clipPath>
+    </defs>
+    <defs
+       id="defs3934">
+      <clipPath
+         id="clipPath4135">
+        <path
+           style="clip-rule:evenodd"
+           inkscape:connector-curvature="0"
+           d="M 123,213 H 5322 V 3522 H 123 Z m 3943,348 8,29 77,-31 -3,-13 z m -1031,1431 -8,29 83,12 3,-13 z"
+           id="path4133" />
+      </clipPath>
+    </defs>
+    <defs
+       id="defs3943">
+      <clipPath
+         id="clipPath4142">
+        <path
+           style="clip-rule:evenodd"
+           inkscape:connector-curvature="0"
+           d="M 123,213 H 5322 V 3522 H 123 Z m 3941,2186 9,29 76,-34 -4,-12 z m -1029,-407 -8,29 83,12 3,-13 z"
+           id="path4140" />
+      </clipPath>
+    </defs>
+    <defs
+       id="defs4004">
+      <clipPath
+         id="clipPath4175">
+        <path
+           style="clip-rule:evenodd"
+           inkscape:connector-curvature="0"
+           d="M 123,213 H 5322 V 3522 H 123 Z m 3941,2186 9,29 76,-34 -4,-12 z m -1029,-407 -8,29 83,12 3,-13 z"
+           id="path4173" />
+      </clipPath>
+    </defs>
+    <defs
+       id="defs4013">
+      <clipPath
+         id="clipPath4182">
+        <path
+           style="clip-rule:evenodd"
+           inkscape:connector-curvature="0"
+           d="M 123,213 H 5322 V 3522 H 123 Z m 3941,2186 9,29 76,-34 -4,-12 z m -1029,-407 -8,29 83,12 3,-13 z"
+           id="path4180" />
+      </clipPath>
+    </defs>
+    <clipPath
+       id="cp0-94">
+      <path
+         id="path4478"
+         d="M 438,510 H 5772 V 2080 H 438 z   M 1906,720 1906,630 1700,665 1700,686z"
+         clip-rule="evenodd" />
+    </clipPath>
+    <clipPath
+       id="cp1-8">
+      <path
+         id="path4487"
+         d="M 438,510 H 5772 V 2080 H 438 z   M 5204,1800 5204,1890 5411,1856 5411,1835z"
+         clip-rule="evenodd" />
+    </clipPath>
+    <defs
+       id="defs4481">
+      <clipPath
+         id="clipPath4607">
+        <path
+           style="clip-rule:evenodd"
+           inkscape:connector-curvature="0"
+           d="M 438,510 H 5772 V 2080 H 438 Z m 1468,210 v -90 l -206,35 v 21 z"
+           id="path4605" />
+      </clipPath>
+    </defs>
+    <defs
+       id="defs4490">
+      <clipPath
+         id="clipPath4614">
+        <path
+           style="clip-rule:evenodd"
+           inkscape:connector-curvature="0"
+           d="M 438,510 H 5772 V 2080 H 438 Z m 4766,1290 v 90 l 207,-34 v -21 z"
+           id="path4612" />
+      </clipPath>
+    </defs>
+    <clipPath
+       id="cp0-12">
+      <path
+         id="path5538"
+         d="M 123,438 H 5142 V 1902 H 123 z   M 4062,767 4069,796 4148,770 4145,757z"
+         clip-rule="evenodd" />
+    </clipPath>
+    <clipPath
+       id="cp1-93">
+      <path
+         id="path5577"
+         d="M 123,438 H 5142 V 1902 H 123 z   M 343,1267 363,1244 294,1196 285,1207z"
+         clip-rule="evenodd" />
+    </clipPath>
+    <defs
+       id="defs5541">
+      <clipPath
+         id="clipPath5630">
+        <path
+           style="clip-rule:evenodd"
+           inkscape:connector-curvature="0"
+           d="M 123,438 H 5142 V 1902 H 123 Z m 3939,329 7,29 79,-26 -3,-13 z"
+           id="path5628" />
+      </clipPath>
+    </defs>
+    <defs
+       id="defs5580">
+      <clipPath
+         id="clipPath5652">
+        <path
+           style="clip-rule:evenodd"
+           inkscape:connector-curvature="0"
+           d="M 123,438 H 5142 V 1902 H 123 Z m 220,829 20,-23 -69,-48 -9,11 z"
+           id="path5650" />
+      </clipPath>
+    </defs>
+    <clipPath
+       id="cp0-908">
+      <path
+         id="path5832"
+         d="M 123,1137 H 5637 V 3342 H 123 z   M 3003,1571 2995,1542 2917,1570 2920,1583z   M 3027,1534 3035,1563 3113,1535 3110,1522z"
+         clip-rule="evenodd" />
+    </clipPath>
+    <clipPath
+       id="cp1-85">
+      <path
+         id="path5845"
+         d="M 123,1137 H 5637 V 3342 H 123 z   M 3801,1495 3793,1523 3875,1538 3878,1525z   M 3624,1475 3632,1447 3550,1432 3547,1445z"
+         clip-rule="evenodd" />
+    </clipPath>
+    <clipPath
+       id="cp2-0">
+      <path
+         id="path5856"
+         d="M 123,1137 H 5637 V 3342 H 123 z   M 3801,1495 3793,1523 3875,1538 3878,1525z   M 3028,2194 3062,2169 3037,2134 2917,2129 2912,2164z"
+         clip-rule="evenodd" />
+    </clipPath>
+    <clipPath
+       id="cp3-9">
+      <path
+         id="path5911"
+         d="M 123,1137 H 5637 V 3342 H 123 z   M 1090,2654 1046,2660 1074,2753 1088,2751z   M 3028,2194 3062,2169 3037,2134 2917,2129 2912,2164z"
+         clip-rule="evenodd" />
+    </clipPath>
+    <defs
+       id="defs5835">
+      <clipPath
+         id="clipPath5986">
+        <path
+           style="clip-rule:evenodd"
+           inkscape:connector-curvature="0"
+           d="M 123,1137 H 5637 V 3342 H 123 Z m 2880,434 -8,-29 -78,28 3,13 z m 24,-37 8,29 78,-28 -3,-13 z"
+           id="path5984" />
+      </clipPath>
+    </defs>
+    <defs
+       id="defs5848">
+      <clipPath
+         id="clipPath5995">
+        <path
+           style="clip-rule:evenodd"
+           inkscape:connector-curvature="0"
+           d="M 123,1137 H 5637 V 3342 H 123 Z m 3678,358 -8,28 82,15 3,-13 z m -177,-20 8,-28 -82,-15 -3,13 z"
+           id="path5993" />
+      </clipPath>
+    </defs>
+    <defs
+       id="defs5859">
+      <clipPath
+         id="clipPath6003">
+        <path
+           style="clip-rule:evenodd"
+           inkscape:connector-curvature="0"
+           d="M 123,1137 H 5637 V 3342 H 123 Z m 3678,358 -8,28 82,15 3,-13 z m -773,699 34,-25 -25,-35 -120,-5 -5,35 z"
+           id="path6001" />
+      </clipPath>
+    </defs>
+    <defs
+       id="defs5914">
+      <clipPath
+         id="clipPath6033">
+        <path
+           style="clip-rule:evenodd"
+           inkscape:connector-curvature="0"
+           d="M 123,1137 H 5637 V 3342 H 123 Z m 967,1517 -44,6 28,93 14,-2 z m 1938,-460 34,-25 -25,-35 -120,-5 -5,35 z"
+           id="path6031" />
+      </clipPath>
+    </defs>
+  </defs>
+  <metadata
+     id="metadata13">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1">
+    <polyline
+       style="fill:#8f008f;stroke:#8f008f;stroke-width:8px;stroke-miterlimit:8"
+       points=""
+       stroke-miterlimit="8"
+       id="polyline159"
+       transform="matrix(0.02228144,0,0,0.02228144,8.4011446,43.811523)" />
+    <polyline
+       style="fill:#8f008f;stroke:#8f008f;stroke-width:8px;stroke-miterlimit:8"
+       points=""
+       stroke-miterlimit="8"
+       id="polyline688"
+       transform="matrix(0.02223246,0,0,0.02223246,11.408567,57.986033)" />
+    <polyline
+       style="fill:#8f008f;stroke:#8f008f;stroke-width:8px;stroke-miterlimit:8"
+       points=""
+       stroke-miterlimit="8"
+       id="polyline2032"
+       transform="matrix(0.02224725,0,0,0.02224725,15.75804,46.654177)" />
+    <polyline
+       style="fill:#ff0000;stroke:#ff0000;stroke-width:8px;stroke-miterlimit:8"
+       points=""
+       stroke-miterlimit="8"
+       id="polyline2755"
+       transform="matrix(0.0222386,0,0,0.0222386,11.097641,35.78814)" />
+    <polyline
+       style="fill:#8f008f;stroke:#8f008f;stroke-width:8px;stroke-miterlimit:8"
+       points=""
+       stroke-miterlimit="8"
+       id="polyline4008"
+       transform="matrix(0.02225642,0,0,0.02225642,12.173098,54.661132)" />
+    <polyline
+       style="fill:#8f008f;stroke:#8f008f;stroke-width:8px;stroke-miterlimit:8"
+       points=""
+       stroke-miterlimit="8"
+       id="polyline4017"
+       transform="matrix(0.02225642,0,0,0.02225642,12.173098,54.661132)" />
+    <polyline
+       style="fill:#ff0000;stroke:#ff0000;stroke-width:8px;stroke-miterlimit:8"
+       points=""
+       stroke-miterlimit="8"
+       id="polyline5863"
+       transform="matrix(0.0222386,0,0,0.0222386,8.5869265,35.655997)" />
+    <rect
+       style="fill:#d8d8d8;stroke:#ffffff;stroke-width:0.1783708px;stroke-dasharray:0.891854, 0.891854"
+       x="52.717094"
+       y="64.150688"
+       width="57.190136"
+       height="21.070051"
+       id="rect6246" />
+    <rect
+       style="fill:#ffffff;stroke:#ff0000;stroke-width:0.1783708px"
+       x="54.723766"
+       y="66.157364"
+       width="24.080057"
+       height="17.056707"
+       id="rect6248" />
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:8px"
+       points=" 945,1530 1260,1530"
+       id="polyline6250"
+       transform="matrix(0.02229635,0,0,0.02229635,24.623695,46.090647)" />
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:8px"
+       points=" 945,1485 1260,1485"
+       id="polyline6252"
+       transform="matrix(0.02229635,0,0,0.02229635,24.623695,46.090647)" />
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:8px"
+       points=" 945,1440 1260,1440"
+       id="polyline6254"
+       transform="matrix(0.02229635,0,0,0.02229635,24.623695,46.090647)" />
+    <polyline
+       style="fill:none;stroke:#ff0000;stroke-width:8px"
+       points=" 945,1260 1305,1215"
+       id="polyline6256"
+       transform="matrix(0.02229635,0,0,0.02229635,24.623695,46.090647)" />
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:8px"
+       points=" 2790,1170 2970,1170"
+       id="polyline6258"
+       transform="matrix(0.02229635,0,0,0.02229635,24.623695,46.090647)" />
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:8px"
+       points=" 2790,1620 2790,945"
+       id="polyline6260"
+       transform="matrix(0.02229635,0,0,0.02229635,24.623695,46.090647)" />
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:8px"
+       points=" 2430,1260 2790,1260"
+       id="polyline6262"
+       transform="matrix(0.02229635,0,0,0.02229635,24.623695,46.090647)" />
+    <text
+       style="font-style:normal;font-weight:bold;font-size:3.21067429px;font-family:'Helvetica Narrow';text-anchor:start;fill:#ff0000;stroke-width:0.02229635"
+       xml:space="preserve"
+       x="69.773804"
+       y="70.170708"
+       font-style="normal"
+       font-weight="bold"
+       font-size="144"
+       id="text6264">upsd</text>
+    <text
+       style="font-style:normal;font-weight:normal;font-size:2.14044952px;font-family:'Helvetica Narrow';text-anchor:start;fill:#ff0000;stroke-width:0.02229635"
+       xml:space="preserve"
+       x="79.807159"
+       y="73.18071"
+       font-style="normal"
+       font-weight="normal"
+       font-size="96"
+       id="text6266">3493</text>
+    <polygon
+       style="fill:#cccccc;stroke:#000000;stroke-width:8px"
+       points="945,1215 495,1215 495,1665 450,1665 450,1710 990,1710 990,1665 945,1665 "
+       id="polygon6268"
+       transform="matrix(0.02229635,0,0,0.02229635,24.623695,46.090647)" />
+    <rect
+       style="fill:#ffffff;stroke:#008f00;stroke-width:0.1783708px"
+       x="90.843857"
+       y="66.157364"
+       width="17.056707"
+       height="14.0467"
+       id="rect6270" />
+    <rect
+       style="fill:#ffffff;stroke:#ff0000;stroke-width:0.1783708px"
+       x="53.720432"
+       y="69.167366"
+       width="15.050036"
+       height="9.0300217"
+       id="rect6272" />
+    <text
+       style="font-style:normal;font-weight:normal;font-size:1.60533714px;font-family:'Helvetica Narrow';text-anchor:start;fill:#ff0000;stroke-width:0.02229635"
+       xml:space="preserve"
+       x="41.680401"
+       y="72.177376"
+       font-style="normal"
+       font-weight="normal"
+       font-size="72"
+       id="text6274">beep</text>
+    <text
+       style="font-style:normal;font-weight:normal;font-size:1.87289345px;font-family:'Helvetica Narrow';text-anchor:start;fill:#ff0000;stroke-width:0.02229635"
+       xml:space="preserve"
+       x="40.677067"
+       y="70.170708"
+       font-style="normal"
+       font-weight="normal"
+       font-size="84"
+       id="text6276">beep</text>
+    <text
+       style="font-style:normal;font-weight:normal;font-size:2.14044952px;font-family:'Helvetica Narrow';text-anchor:start;fill:#ff0000;stroke-width:0.02229635"
+       xml:space="preserve"
+       x="39.673733"
+       y="67.160698"
+       font-style="normal"
+       font-weight="normal"
+       font-size="96"
+       id="text6278">beep</text>
+    <circle
+       style="fill:#ff0000;stroke:#ff0000;stroke-width:0.1783708px"
+       cx="43.687073"
+       cy="74.184052"
+       r="0.51281607"
+       id="circle6280" />
+    <text
+       style="font-style:normal;font-weight:bold;font-size:2.14044952px;font-family:'Helvetica Narrow';text-anchor:start;fill:#000000;stroke-width:0.02229635"
+       xml:space="preserve"
+       x="36.663723"
+       y="80.204063"
+       font-style="normal"
+       font-weight="bold"
+       font-size="96"
+       id="text6282">UPS-1</text>
+    <text
+       style="font-style:normal;font-weight:bold;font-size:3.21067429px;font-family:'Helvetica Narrow';text-anchor:start;fill:#008f00;stroke-width:0.02229635"
+       xml:space="preserve"
+       x="91.847191"
+       y="70.170708"
+       font-style="normal"
+       font-weight="bold"
+       font-size="144"
+       id="text6284">upsmon</text>
+    <text
+       style="font-style:normal;font-weight:bold;font-size:1.87289345px;font-family:'Helvetica Narrow';text-anchor:start;fill:#008f00;stroke-width:0.02229635"
+       xml:space="preserve"
+       x="93.853859"
+       y="78.197388"
+       font-style="normal"
+       font-weight="bold"
+       font-size="84"
+       id="text6286">[ONBATT]</text>
+    <text
+       style="font-style:normal;font-weight:bold;font-size:1.87289345px;font-family:'Helvetica Narrow';text-anchor:start;fill:#008f00;stroke-width:0.02229635"
+       xml:space="preserve"
+       x="91.847191"
+       y="75.187386"
+       font-style="normal"
+       font-weight="bold"
+       font-size="84"
+       id="text6288">NOTIFY event:</text>
+    <text
+       style="font-style:normal;font-weight:normal;font-size:1.87289345px;font-family:'Helvetica Narrow';text-anchor:start;fill:#ff0000;stroke-width:0.02229635"
+       xml:space="preserve"
+       x="55.727104"
+       y="81.207397"
+       font-style="normal"
+       font-weight="normal"
+       font-size="84"
+       id="text6290">ups.status:  [OB]</text>
+    <text
+       style="font-style:normal;font-weight:bold;font-size:2.40800571px;font-family:'Helvetica Narrow';text-anchor:start;fill:#ff0000;stroke-width:0.02229635"
+       xml:space="preserve"
+       x="54.723766"
+       y="73.18071"
+       font-style="normal"
+       font-weight="bold"
+       font-size="108"
+       id="text6292">upsdrvctl</text>
+    <text
+       style="font-style:normal;font-weight:bold;font-size:2.40800571px;font-family:'Helvetica Narrow';text-anchor:start;fill:#ff0000;stroke-width:0.02229635"
+       xml:space="preserve"
+       x="54.723766"
+       y="76.19072"
+       font-style="normal"
+       font-weight="bold"
+       font-size="108"
+       id="text6294">+ driver</text>
+    <text
+       style="font-style:normal;font-weight:normal;font-size:2.11666656px;font-family:Courier;text-anchor:start;fill:#000000;stroke-width:0.02229635"
+       xml:space="preserve"
+       x="89.546951"
+       y="83.424553"
+       font-style="normal"
+       font-weight="normal"
+       font-size="60"
+       id="text6296">overview-OB.svg</text>
+  </g>
+</svg>

@@ -1,0 +1,1001 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="148mm"
+   height="210mm"
+   viewBox="0 0 148 210"
+   version="1.1"
+   id="SVGRoot"
+   inkscape:version="0.92.1 r15371"
+   sodipodi:docname="big.svg">
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.0022523"
+     inkscape:cx="279.68504"
+     inkscape:cy="383.1592"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1280"
+     inkscape:window-height="984"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:measure-start="0,0"
+     inkscape:measure-end="0,0"
+     inkscape:snap-object-midpoints="true"
+     inkscape:snap-center="true" />
+  <defs
+     id="defs10">
+    <clipPath
+       id="cp0">
+      <path
+         id="path107"
+         d="M 123,483 H 5142 V 1905 H 123 z   M 4062,767 4069,796 4148,770 4145,757z"
+         clip-rule="evenodd" />
+    </clipPath>
+    <clipPath
+       id="cp1">
+      <path
+         id="path152"
+         d="M 123,483 H 5142 V 1905 H 123 z   M 4062,767 4069,796 4148,770 4145,757z"
+         clip-rule="evenodd" />
+    </clipPath>
+    <defs
+       id="defs110">
+      <clipPath
+         id="clipPath210">
+        <path
+           style="clip-rule:evenodd"
+           inkscape:connector-curvature="0"
+           d="M 123,483 H 5142 V 1905 H 123 Z m 3939,284 7,29 79,-26 -3,-13 z"
+           id="path208" />
+      </clipPath>
+    </defs>
+    <defs
+       id="defs155">
+      <clipPath
+         id="clipPath235">
+        <path
+           style="clip-rule:evenodd"
+           inkscape:connector-curvature="0"
+           d="M 123,483 H 5142 V 1905 H 123 Z m 3939,284 7,29 79,-26 -3,-13 z"
+           id="path233" />
+      </clipPath>
+    </defs>
+    <clipPath
+       id="cp0-9">
+      <path
+         id="path492"
+         d="M 120,8 H 5277 V 4110 H 120 z   M 3060,2681 3032,2669 3006,2748 3018,2754z   M 3150,2404 3178,2416 3204,2337 3192,2331z"
+         clip-rule="evenodd" />
+    </clipPath>
+    <clipPath
+       id="cp1-2">
+      <path
+         id="path503"
+         d="M 120,8 H 5277 V 4110 H 120 z   M 2964,1642 2987,1622 2926,1565 2915,1574z   M 3246,1913 3223,1933 3284,1990 3295,1981z"
+         clip-rule="evenodd" />
+    </clipPath>
+    <polygon
+       id="p0"
+       points=" 1215,540 1218,537 1224,531 1230,525 1237,518 1246,509 1260,495 1273,482 1280,477  1283,476 1285,475 1292,468 1305,450 1313,436 1320,425 1323,416 1324,410 1324,405  1324,400 1325,394 1330,385 1338,374 1350,360 1364,348 1376,340 1385,335 1393,334  1399,334 1405,334 1411,333 1420,330 1430,323 1440,315 1448,305 1448,298 1442,294  1433,293 1424,291 1420,287 1424,280 1440,270 1457,263 1474,257 1490,253 1504,252  1515,251 1526,251 1537,251 1549,250 1564,248 1581,243 1600,235 1620,225 1639,211  1648,200 1649,192 1644,187 1635,184 1627,180 1622,175 1625,166 1639,152 1665,135  1686,124 1706,114 1724,105 1738,98 1749,93 1756,89 1762,85 1766,83 1771,80 1778,77  1789,73 1804,69 1826,64 1855,58 1892,51 1935,45 1971,41 2007,38 2040,35 2070,33  2096,30 2119,29 2139,27 2156,25 2172,24 2186,22 2201,21 2215,21 2231,20 2249,20  2268,21 2290,23 2314,26 2338,31 2363,37 2385,45 2409,59 2422,74 2426,89 2423,101  2414,112 2402,122 2389,131 2375,141 2361,151 2350,162 2341,176 2336,191 2336,208  2340,225 2349,242 2360,253 2371,260 2380,263 2389,263 2396,262 2404,261 2413,260  2425,261 2439,263 2456,266 2475,270 2500,274 2514,275 2520,273 2520,270 2520,267  2526,265 2540,266 2565,270 2587,275 2605,279 2617,282 2624,284 2629,285 2634,286  2641,289 2654,294 2674,303 2700,315 2722,326 2740,336 2754,343 2764,348 2770,351  2775,353 2780,354 2786,358 2794,364 2805,373 2819,387 2835,405 2849,424 2859,440  2867,452 2873,460 2877,465 2880,469 2883,473 2885,478 2886,487 2887,500 2885,518  2880,540 2871,562 2859,580 2847,594 2836,604 2826,610 2816,615 2806,620 2796,626  2784,634 2771,645 2758,659 2745,675 2733,694 2730,704 2734,708 2741,709 2749,709  2753,710 2753,714 2745,720 2732,724 2720,725 2709,723 2700,720 2691,717 2680,715  2668,716 2655,720 2652,721 2650,723 2649,725 2648,726 2648,728 2649,730 2651,731  2653,733 2656,734 2660,735 2664,737 2669,738 2673,739 2679,740 2684,741 2689,743  2694,744 2699,745 2703,746 2707,747 2710,748 2712,750 2714,751 2714,752 2713,754  2711,755 2706,757 2700,759 2692,760 2682,762 2669,764 2655,765 2631,767 2605,768  2578,768 2552,768 2527,766 2505,764 2484,761 2464,758 2446,754 2428,750 2411,746  2394,742 2377,739 2358,736 2338,734 2317,733 2294,733 2268,735 2242,739 2214,745  2186,754 2160,765 2133,781 2112,799 2098,817 2090,833 2087,849 2088,863 2091,876  2097,888 2104,900 2111,912 2118,924 2124,937 2128,951 2130,967 2130,983 2127,1001  2122,1019 2115,1035 2109,1046 2103,1055 2097,1062 2091,1067 2086,1070 2082,1072  2078,1072 2075,1072 2072,1072 2069,1070 2066,1069 2064,1067 2061,1065 2058,1063  2055,1061 2051,1058 2048,1055 2043,1053 2039,1049 2034,1045 2029,1041 2025,1035  2018,1020 2015,1006 2015,994 2018,986 2021,979 2025,971 2028,961 2029,947 2028,926  2025,900 2022,883 2020,868 2019,856 2020,845 2023,837 2027,831 2031,826 2036,821  2041,817 2044,812 2045,807 2043,801 2036,793 2024,784 2005,774 1980,765 1956,759  1931,754 1906,751 1883,750 1862,749 1842,750 1825,751 1810,753 1795,755 1781,758  1767,760 1753,762 1737,765 1719,767 1700,768 1678,769 1654,769 1628,768 1601,767  1575,765 1533,760 1509,755 1502,750 1506,746 1515,742 1525,739 1531,735 1527,730  1512,725 1485,720 1462,717 1439,716 1420,716 1403,717 1390,719 1379,721 1369,724  1359,726 1348,729 1335,730 1319,730 1301,729 1280,725 1260,720 1243,713 1230,705  1222,699 1218,693 1216,687 1217,683 1219,679 1221,675 1223,670 1223,664 1223,657  1221,649 1218,640 1215,630 1210,612 1210,605 1211,604 1213,603 1215,598 1215,585  1215,572 1213,565 1211,562 1210,560 1210,553 1215,540 1224,526 1233,517 1241,510  1249,504 1256,498 1260,495 1256,499 1247,508 1237,518 1228,527 1219,536" />
+    <pattern
+       height="402"
+       width="402"
+       y="0"
+       x="0"
+       patternUnits="userSpaceOnUse"
+       id="tile0">
+      <g
+         id="g519"
+         fill="none"
+         stroke="#ffd600"
+         stroke-width="7.5">
+        <path
+           id="path517"
+           d="M30,-1 V403 M164,-1 V403 M298,-1 V403 M30,164 l134,67 M164,30 l134,67 M298,298 l120,60 M30,365 l-40,-20" />
+      </g>
+    </pattern>
+    <clipPath
+       id="cp2">
+      <path
+         id="path614"
+         d="M 120,8 H 5277 V 4110 H 120 z   M 4288,2937 4299,2965 4374,2929 4369,2916z   M 3246,1913 3223,1933 3284,1990 3295,1981z"
+         clip-rule="evenodd" />
+    </clipPath>
+    <clipPath
+       id="cp3">
+      <path
+         id="path681"
+         d="M 120,8 H 5277 V 4110 H 120 z   M 4288,2937 4299,2965 4374,2929 4369,2916z   M 3246,1913 3223,1933 3284,1990 3295,1981z"
+         clip-rule="evenodd" />
+    </clipPath>
+    <defs
+       id="defs495">
+      <clipPath
+         id="clipPath737">
+        <path
+           style="clip-rule:evenodd"
+           inkscape:connector-curvature="0"
+           d="M 120,8 H 5277 V 4110 H 120 Z m 2940,2673 -28,-12 -26,79 12,6 z m 90,-277 28,12 26,-79 -12,-6 z"
+           id="path735" />
+      </clipPath>
+    </defs>
+    <defs
+       id="defs506">
+      <clipPath
+         id="clipPath745">
+        <path
+           style="clip-rule:evenodd"
+           inkscape:connector-curvature="0"
+           d="M 120,8 H 5277 V 4110 H 120 Z m 2844,1634 23,-20 -61,-57 -11,9 z m 282,271 -23,20 61,57 11,-9 z"
+           id="path743" />
+      </clipPath>
+    </defs>
+    <defs
+       id="defs522">
+      <polygon
+         points="1237,518 1246,509 1260,495 1273,482 1280,477 1283,476 1285,475 1292,468 1305,450 1313,436 1320,425 1323,416 1324,410 1324,405 1324,400 1325,394 1330,385 1338,374 1350,360 1364,348 1376,340 1385,335 1393,334 1399,334 1405,334 1411,333 1420,330 1430,323 1440,315 1448,305 1448,298 1442,294 1433,293 1424,291 1420,287 1424,280 1440,270 1457,263 1474,257 1490,253 1504,252 1515,251 1526,251 1537,251 1549,250 1564,248 1581,243 1600,235 1620,225 1639,211 1648,200 1649,192 1644,187 1635,184 1627,180 1622,175 1625,166 1639,152 1665,135 1686,124 1706,114 1724,105 1738,98 1749,93 1756,89 1762,85 1766,83 1771,80 1778,77 1789,73 1804,69 1826,64 1855,58 1892,51 1935,45 1971,41 2007,38 2040,35 2070,33 2096,30 2119,29 2139,27 2156,25 2172,24 2186,22 2201,21 2215,21 2231,20 2249,20 2268,21 2290,23 2314,26 2338,31 2363,37 2385,45 2409,59 2422,74 2426,89 2423,101 2414,112 2402,122 2389,131 2375,141 2361,151 2350,162 2341,176 2336,191 2336,208 2340,225 2349,242 2360,253 2371,260 2380,263 2389,263 2396,262 2404,261 2413,260 2425,261 2439,263 2456,266 2475,270 2500,274 2514,275 2520,273 2520,270 2520,267 2526,265 2540,266 2565,270 2587,275 2605,279 2617,282 2624,284 2629,285 2634,286 2641,289 2654,294 2674,303 2700,315 2722,326 2740,336 2754,343 2764,348 2770,351 2775,353 2780,354 2786,358 2794,364 2805,373 2819,387 2835,405 2849,424 2859,440 2867,452 2873,460 2877,465 2880,469 2883,473 2885,478 2886,487 2887,500 2885,518 2880,540 2871,562 2859,580 2847,594 2836,604 2826,610 2816,615 2806,620 2796,626 2784,634 2771,645 2758,659 2745,675 2733,694 2730,704 2734,708 2741,709 2749,709 2753,710 2753,714 2745,720 2732,724 2720,725 2709,723 2700,720 2691,717 2680,715 2668,716 2655,720 2652,721 2650,723 2649,725 2648,726 2648,728 2649,730 2651,731 2653,733 2656,734 2660,735 2664,737 2669,738 2673,739 2679,740 2684,741 2689,743 2694,744 2699,745 2703,746 2707,747 2710,748 2712,750 2714,751 2714,752 2713,754 2711,755 2706,757 2700,759 2692,760 2682,762 2669,764 2655,765 2631,767 2605,768 2578,768 2552,768 2527,766 2505,764 2484,761 2464,758 2446,754 2428,750 2411,746 2394,742 2377,739 2358,736 2338,734 2317,733 2294,733 2268,735 2242,739 2214,745 2186,754 2160,765 2133,781 2112,799 2098,817 2090,833 2087,849 2088,863 2091,876 2097,888 2104,900 2111,912 2118,924 2124,937 2128,951 2130,967 2130,983 2127,1001 2122,1019 2115,1035 2109,1046 2103,1055 2097,1062 2091,1067 2086,1070 2082,1072 2078,1072 2075,1072 2072,1072 2069,1070 2066,1069 2064,1067 2061,1065 2058,1063 2055,1061 2051,1058 2048,1055 2043,1053 2039,1049 2034,1045 2029,1041 2025,1035 2018,1020 2015,1006 2015,994 2018,986 2021,979 2025,971 2028,961 2029,947 2028,926 2025,900 2022,883 2020,868 2019,856 2020,845 2023,837 2027,831 2031,826 2036,821 2041,817 2044,812 2045,807 2043,801 2036,793 2024,784 2005,774 1980,765 1956,759 1931,754 1906,751 1883,750 1862,749 1842,750 1825,751 1810,753 1795,755 1781,758 1767,760 1753,762 1737,765 1719,767 1700,768 1678,769 1654,769 1628,768 1601,767 1575,765 1533,760 1509,755 1502,750 1506,746 1515,742 1525,739 1531,735 1527,730 1512,725 1485,720 1462,717 1439,716 1420,716 1403,717 1390,719 1379,721 1369,724 1359,726 1348,729 1335,730 1319,730 1301,729 1280,725 1260,720 1243,713 1230,705 1222,699 1218,693 1216,687 1217,683 1219,679 1221,675 1223,670 1223,664 1223,657 1221,649 1218,640 1215,630 1210,612 1210,605 1211,604 1213,603 1215,598 1215,585 1215,572 1213,565 1211,562 1210,560 1210,553 1215,540 1224,526 1233,517 1241,510 1249,504 1256,498 1260,495 1256,499 1247,508 1237,518 1228,527 1219,536 1215,540 1218,537 1224,531 1230,525 "
+         id="polygon752" />
+      <pattern
+         id="pattern758"
+         patternUnits="userSpaceOnUse"
+         x="0"
+         y="0"
+         width="402"
+         height="402">
+        <g
+           stroke-width="7.5"
+           stroke="#ffd600"
+           fill="none"
+           id="g756">
+          <path
+             d="M30,-1 V403 M164,-1 V403 M298,-1 V403 M30,164 l134,67 M164,30 l134,67 M298,298 l120,60 M30,365 l-40,-20"
+             id="path754" />
+        </g>
+      </pattern>
+    </defs>
+    <defs
+       id="defs617">
+      <clipPath
+         id="clipPath808">
+        <path
+           style="clip-rule:evenodd"
+           inkscape:connector-curvature="0"
+           d="M 120,8 H 5277 V 4110 H 120 Z m 4168,2929 11,28 75,-36 -5,-13 z m -1042,-1024 -23,20 61,57 11,-9 z"
+           id="path806" />
+      </clipPath>
+    </defs>
+    <defs
+       id="defs684">
+      <clipPath
+         id="clipPath844">
+        <path
+           style="clip-rule:evenodd"
+           inkscape:connector-curvature="0"
+           d="M 120,8 H 5277 V 4110 H 120 Z m 4168,2929 11,28 75,-36 -5,-13 z m -1042,-1024 -23,20 61,57 11,-9 z"
+           id="path842" />
+      </clipPath>
+    </defs>
+  </defs>
+  <metadata
+     id="metadata13">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1">
+    <polyline
+       style="fill:#8f008f;stroke:#8f008f;stroke-width:8px;stroke-miterlimit:8"
+       points=""
+       stroke-miterlimit="8"
+       id="polyline159"
+       transform="matrix(0.02228144,0,0,0.02228144,8.4011446,43.811523)" />
+    <rect
+       style="fill:#d8d8d8;stroke:#ffffff;stroke-width:0.17785968px"
+       x="38.421005"
+       y="118.01367"
+       width="90.041466"
+       height="30.013821"
+       id="rect450" />
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:8px"
+       points=" 135,3015 1215,3015"
+       id="polyline452"
+       transform="matrix(0.02223246,0,0,0.02223246,11.408567,57.986033)" />
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:8px"
+       points=" 135,3060 1215,3060"
+       id="polyline454"
+       transform="matrix(0.02223246,0,0,0.02223246,11.408567,57.986033)" />
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:8px"
+       points=" 135,2970 1215,2970"
+       id="polyline456"
+       transform="matrix(0.02223246,0,0,0.02223246,11.408567,57.986033)" />
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:8px"
+       points=" 135,1845 1215,1845"
+       id="polyline458"
+       transform="matrix(0.02223246,0,0,0.02223246,11.408567,57.986033)" />
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:8px"
+       points=" 135,1890 1215,1890"
+       id="polyline460"
+       transform="matrix(0.02223246,0,0,0.02223246,11.408567,57.986033)" />
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:8px"
+       points=" 135,1800 1215,1800"
+       id="polyline462"
+       transform="matrix(0.02223246,0,0,0.02223246,11.408567,57.986033)" />
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:8px"
+       points=" 135,630 1215,630"
+       id="polyline464"
+       transform="matrix(0.02223246,0,0,0.02223246,11.408567,57.986033)" />
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:8px"
+       points=" 135,675 1215,675"
+       id="polyline466"
+       transform="matrix(0.02223246,0,0,0.02223246,11.408567,57.986033)" />
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:8px"
+       points=" 135,585 1215,585"
+       id="polyline468"
+       transform="matrix(0.02223246,0,0,0.02223246,11.408567,57.986033)" />
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:8px"
+       points=" 135,540 1215,540"
+       id="polyline470"
+       transform="matrix(0.02223246,0,0,0.02223246,11.408567,57.986033)" />
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:8px"
+       points=" 2430,3240 3015,3240"
+       id="polyline472"
+       transform="matrix(0.02223246,0,0,0.02223246,11.408567,57.986033)" />
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:8px"
+       points=" 3015,2925 3240,2925"
+       id="polyline474"
+       transform="matrix(0.02223246,0,0,0.02223246,11.408567,57.986033)" />
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:8px"
+       points=" 3015,3375 3240,3375"
+       id="polyline476"
+       transform="matrix(0.02223246,0,0,0.02223246,11.408567,57.986033)" />
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:8px"
+       points=" 3015,3960 3015,2745"
+       id="polyline478"
+       transform="matrix(0.02223246,0,0,0.02223246,11.408567,57.986033)" />
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:8px"
+       points=" 3015,3825 3240,3825"
+       id="polyline480"
+       transform="matrix(0.02223246,0,0,0.02223246,11.408567,57.986033)" />
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:8px"
+       points=" 3015,3600 3240,3600"
+       id="polyline482"
+       transform="matrix(0.02223246,0,0,0.02223246,11.408567,57.986033)" />
+    <rect
+       style="fill:#ffffff;stroke:#ff0000;stroke-width:0.17785968px"
+       x="41.422386"
+       y="120.0146"
+       width="26.011978"
+       height="26.011978"
+       id="rect484" />
+    <polygon
+       style="fill:#ff0000;stroke:#ff0000;stroke-width:8px;stroke-linejoin:bevel"
+       points="639,3619 639,3621 640,3623 640,3624 639,3625 639,3626 638,3626 638,3627 637,3627 636,3627 635,3627 634,3627 632,3627 631,3627 630,3626 629,3626 628,3626 626,3625 625,3625 624,3624 623,3623 622,3623 622,3622 621,3621 621,3620 620,3619 620,3618 621,3616 621,3615 622,3613 623,3611 624,3609 626,3606 628,3603 630,3600 638,3587 646,3574 653,3561 658,3549 661,3539 664,3529 667,3519 671,3509 678,3498 688,3486 702,3474 720,3465 739,3460 756,3458 769,3459 780,3460 788,3462 795,3465 802,3468 809,3472 819,3478 830,3486 843,3496 855,3510 863,3523 869,3536 873,3546 875,3554 877,3559 877,3563 878,3566 877,3570 877,3574 875,3581 873,3591 869,3605 863,3623 855,3645 844,3667 834,3687 824,3703 816,3715 809,3724 804,3730 799,3735 794,3740 788,3746 780,3755 769,3767 756,3783 739,3803 720,3825 698,3850 680,3871 667,3888 658,3901 653,3911 649,3919 645,3926 640,3934 632,3942 620,3950 604,3957 585,3960 570,3958 557,3952 548,3945 542,3938 539,3932 537,3925 536,3919 536,3912 534,3904 531,3894 526,3881 518,3866 507,3847 495,3825 482,3803 471,3783 462,3767 455,3756 450,3748 446,3743 442,3739 439,3735 436,3729 431,3721 426,3709 419,3692 412,3670 405,3645 399,3616 394,3591 391,3573 389,3560 388,3551 386,3544 385,3537 385,3529 387,3518 390,3503 396,3485 405,3465 414,3452 424,3441 433,3433 441,3427 449,3422 455,3418 460,3415 465,3413 470,3411 476,3409 483,3408 491,3407 501,3407 512,3409 526,3413 540,3420 555,3431 568,3445 578,3459 585,3472 590,3484 594,3495 596,3506 599,3517 601,3529 605,3541 610,3555 616,3570 623,3586 630,3600 632,3604 634,3608 636,3611 637,3614 638,3617 "
+       id="polygon486"
+       transform="matrix(0.02223246,0,0,0.02223246,11.408567,57.986033)" />
+    <polyline
+       style="fill:none;stroke:#ff0000;stroke-width:8px"
+       points=" 900,3195 1260,3150"
+       id="polyline488"
+       transform="matrix(0.02223246,0,0,0.02223246,11.408567,57.986033)" />
+    <polyline
+       style="fill:none;stroke:#ff0000;stroke-width:8px"
+       points=" 856,3616 1260,3555"
+       id="polyline490"
+       transform="matrix(0.02223246,0,0,0.02223246,11.408567,57.986033)" />
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:8px"
+       points=" 3195,2340 3015,2745"
+       clip-path="url(#cp0-9)"
+       id="polyline497"
+       transform="matrix(0.02223246,0,0,0.02223246,11.408567,57.986033)" />
+    <polygon
+       style="fill:#000000;stroke:#000000;stroke-width:8px;stroke-miterlimit:8"
+       points="3032,2669 3022,2730 3060,2681 "
+       stroke-miterlimit="8"
+       id="polygon499"
+       transform="matrix(0.02223246,0,0,0.02223246,11.408567,57.986033)" />
+    <polygon
+       style="fill:#000000;stroke:#000000;stroke-width:8px;stroke-miterlimit:8"
+       points="3178,2416 3188,2355 3150,2404 "
+       stroke-miterlimit="8"
+       id="polygon501"
+       transform="matrix(0.02223246,0,0,0.02223246,11.408567,57.986033)" />
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:8px"
+       points=" 3285,1980 2925,1575"
+       clip-path="url(#cp1-2)"
+       id="polyline508"
+       transform="matrix(0.02223246,0,0,0.02223246,11.408567,57.986033)" />
+    <polygon
+       style="fill:#000000;stroke:#000000;stroke-width:8px;stroke-miterlimit:8"
+       points="2987,1622 2936,1587 2964,1642 "
+       stroke-miterlimit="8"
+       id="polygon510"
+       transform="matrix(0.02223246,0,0,0.02223246,11.408567,57.986033)" />
+    <polygon
+       style="fill:#000000;stroke:#000000;stroke-width:8px;stroke-miterlimit:8"
+       points="3223,1933 3274,1968 3246,1913 "
+       stroke-miterlimit="8"
+       id="polygon512"
+       transform="matrix(0.02223246,0,0,0.02223246,11.408567,57.986033)" />
+    <rect
+       style="fill:#bfa000;stroke:#ffffff;stroke-width:0.17785968px"
+       x="38.421005"
+       y="78.995705"
+       width="37.017044"
+       height="30.013821"
+       id="rect514" />
+    <use
+       height="100%"
+       width="100%"
+       y="0"
+       x="0"
+       style="fill:#ffd600"
+       xlink:href="#p0"
+       id="use524"
+       transform="matrix(0.02223246,0,0,0.02223246,11.408567,57.986033)" />
+    <use
+       height="100%"
+       width="100%"
+       y="0"
+       x="0"
+       style="fill:url(#tile0);stroke:#ffd600;stroke-width:8px;stroke-linejoin:bevel"
+       xlink:href="#p0"
+       id="use526"
+       transform="matrix(0.02223246,0,0,0.02223246,11.408567,57.986033)" />
+    <text
+       style="font-style:normal;font-weight:normal;font-size:2.13431621px;font-family:'Helvetica Narrow';text-anchor:start;fill:#000000;stroke-width:0.02223246"
+       xml:space="preserve"
+       x="14.409949"
+       y="68.991104"
+       font-style="normal"
+       font-weight="normal"
+       font-size="96"
+       id="text528">3</text>
+    <text
+       style="font-style:normal;font-weight:normal;font-size:2.13431621px;font-family:Times;text-anchor:start;fill:#000000;stroke-width:0.02223246"
+       xml:space="preserve"
+       x="85.442657"
+       y="72.325974"
+       font-style="normal"
+       font-weight="normal"
+       font-size="96"
+       id="text530">undisclosed device</text>
+    <text
+       style="font-style:normal;font-weight:normal;font-size:2.13431621px;font-family:Times;text-anchor:start;fill:#000000;stroke-width:0.02223246"
+       xml:space="preserve"
+       x="85.442657"
+       y="67.990639"
+       font-style="normal"
+       font-weight="normal"
+       font-size="96"
+       id="text532">UPS-3 protects</text>
+    <text
+       style="font-style:normal;font-weight:normal;font-size:2.13431621px;font-family:Times;text-anchor:start;fill:#000000;stroke-width:0.02223246"
+       xml:space="preserve"
+       x="86.443123"
+       y="90.334259"
+       font-style="normal"
+       font-weight="normal"
+       font-size="96"
+       id="text534">computer &quot;gold&quot; which</text>
+    <text
+       style="font-style:normal;font-weight:normal;font-size:2.13431621px;font-family:Times;text-anchor:start;fill:#000000;stroke-width:0.02223246"
+       xml:space="preserve"
+       x="86.443123"
+       y="94.669594"
+       font-style="normal"
+       font-weight="normal"
+       font-size="96"
+       id="text536">drives undisclosed device</text>
+    <text
+       style="font-style:normal;font-weight:normal;font-size:2.13431621px;font-family:Times;text-anchor:start;fill:#000000;stroke-width:0.02223246"
+       xml:space="preserve"
+       x="86.443123"
+       y="85.998932"
+       font-style="normal"
+       font-weight="normal"
+       font-size="96"
+       id="text538">UPS-2 protects remote</text>
+    <text
+       style="font-style:normal;font-weight:normal;font-size:2.13431621px;font-family:Times;text-anchor:start;fill:#000000;stroke-width:0.02223246"
+       xml:space="preserve"
+       x="83.441734"
+       y="117.01321"
+       font-style="normal"
+       font-weight="normal"
+       font-size="96"
+       id="text540">management workstation &quot;mgmt&quot;</text>
+    <text
+       style="font-style:normal;font-weight:normal;font-size:2.13431621px;font-family:Times;text-anchor:start;fill:#000000;stroke-width:0.02223246"
+       xml:space="preserve"
+       x="98.448647"
+       y="113.01137"
+       font-style="normal"
+       font-weight="normal"
+       font-size="96"
+       id="text542">UPS-1 protects NUT</text>
+    <text
+       style="font-style:normal;font-weight:normal;font-size:2.66789532px;font-family:'Helvetica Narrow';text-anchor:start;fill:#ff0000;stroke-width:0.02223246"
+       xml:space="preserve"
+       x="68.43483"
+       y="130.01921"
+       font-style="normal"
+       font-weight="normal"
+       font-size="120"
+       id="text544">port</text>
+    <text
+       style="font-style:normal;font-weight:normal;font-size:2.13431621px;font-family:'Helvetica Narrow';text-anchor:start;fill:#ff0000;stroke-width:0.02223246"
+       xml:space="preserve"
+       x="68.43483"
+       y="134.68802"
+       font-style="normal"
+       font-weight="normal"
+       font-size="96"
+       id="text546">3493</text>
+    <text
+       style="font-style:normal;font-weight:normal;font-size:2.66789532px;font-family:'Helvetica Narrow';text-anchor:start;fill:#ff0000;stroke-width:0.02223246"
+       xml:space="preserve"
+       x="68.43483"
+       y="126.01736"
+       font-style="normal"
+       font-weight="normal"
+       font-size="120"
+       id="text548">mgmt</text>
+    <text
+       style="font-style:normal;font-weight:bold;font-size:3.20147419px;font-family:'Helvetica Narrow';text-anchor:start;fill:#ff0000;stroke-width:0.02223246"
+       xml:space="preserve"
+       x="56.429298"
+       y="125.0169"
+       font-style="normal"
+       font-weight="bold"
+       font-size="144"
+       id="text550">upsd</text>
+    <text
+       style="font-style:normal;font-weight:normal;font-size:2.66789532px;font-family:'Helvetica Narrow';text-anchor:start;fill:#ffffff;stroke-width:0.02223246"
+       xml:space="preserve"
+       x="22.413635"
+       y="141.02428"
+       font-style="normal"
+       font-weight="normal"
+       font-size="120"
+       id="text552">10m</text>
+    <text
+       style="font-style:normal;font-weight:normal;font-size:2.40110564px;font-family:'Helvetica Narrow';text-anchor:start;fill:#ff0000;stroke-width:0.02223246"
+       xml:space="preserve"
+       x="16.41087"
+       y="149.02795"
+       font-style="normal"
+       font-weight="normal"
+       font-size="108"
+       id="text554">heartbeat.conf</text>
+    <rect
+       style="fill:#ffffff;stroke:#ff0000;stroke-width:0.17785968px"
+       x="43.423309"
+       y="80.996628"
+       width="24.011057"
+       height="26.011978"
+       id="rect556" />
+    <ellipse
+       style="fill:#7f7f7f;stroke:#ffffff;stroke-width:0.17785968px"
+       cx="87.932693"
+       cy="106.00815"
+       rx="10.493721"
+       ry="4.001843"
+       id="ellipse558" />
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:8px"
+       points=" 2520,1575 2925,1575"
+       id="polyline560"
+       transform="matrix(0.02223246,0,0,0.02223246,11.408567,57.986033)" />
+    <polyline
+       style="fill:none;stroke:#ff0000;stroke-width:8px"
+       points=" 900,765 1260,1260"
+       id="polyline562"
+       transform="matrix(0.02223246,0,0,0.02223246,11.408567,57.986033)" />
+    <polyline
+       style="fill:none;stroke:#ff0000;stroke-width:8px"
+       points=" 900,1710 1260,1755"
+       id="polyline564"
+       transform="matrix(0.02223246,0,0,0.02223246,11.408567,57.986033)" />
+    <text
+       style="font-style:normal;font-weight:normal;font-size:2.13431621px;font-family:'Helvetica Narrow';text-anchor:start;fill:#ff0000;stroke-width:0.02223246"
+       xml:space="preserve"
+       x="68.43483"
+       y="95.670052"
+       font-style="normal"
+       font-weight="normal"
+       font-size="96"
+       id="text566">3493</text>
+    <text
+       style="font-style:normal;font-weight:normal;font-size:2.66789532px;font-family:'Helvetica Narrow';text-anchor:start;fill:#ff0000;stroke-width:0.02223246"
+       xml:space="preserve"
+       x="68.43483"
+       y="91.001236"
+       font-style="normal"
+       font-weight="normal"
+       font-size="120"
+       id="text568">port</text>
+    <text
+       style="font-style:normal;font-weight:normal;font-size:2.66789532px;font-family:'Helvetica Narrow';text-anchor:start;fill:#ff0000;stroke-width:0.02223246"
+       xml:space="preserve"
+       x="68.43483"
+       y="86.99939"
+       font-style="normal"
+       font-weight="normal"
+       font-size="120"
+       id="text570">gold</text>
+    <text
+       style="font-style:normal;font-weight:bold;font-size:3.20147419px;font-family:'Helvetica Narrow';text-anchor:start;fill:#ff0000;stroke-width:0.02223246"
+       xml:space="preserve"
+       x="58.430222"
+       y="84.998474"
+       font-style="normal"
+       font-weight="bold"
+       font-size="144"
+       id="text572">upsd</text>
+    <text
+       style="font-style:normal;font-weight:normal;font-size:1.86752665px;font-family:'Helvetica Narrow';text-anchor:start;fill:#000000;stroke-width:0.02223246"
+       xml:space="preserve"
+       x="80.440353"
+       y="107.00861"
+       font-style="normal"
+       font-weight="normal"
+       font-size="84"
+       id="text574">hic sunt dragones</text>
+    <rect
+       style="fill:#ffffff;stroke:#0000ff;stroke-width:0.17785968px"
+       x="109.45371"
+       y="120.0146"
+       width="17.007832"
+       height="10.004607"
+       id="rect576" />
+    <rect
+       style="fill:#ffffff;stroke:#008f00;stroke-width:0.17785968px"
+       x="83.441734"
+       y="120.0146"
+       width="16.007372"
+       height="10.004607"
+       id="rect578" />
+    <rect
+       style="fill:#ffffff;stroke:#8f008f;stroke-width:0.17785968px"
+       x="100.44957"
+       y="132.02013"
+       width="26.011978"
+       height="14.00645"
+       rx="2.3344083"
+       id="rect580" />
+    <polygon
+       style="fill:#cccccc;stroke:#000000;stroke-width:8px"
+       points="900,2790 450,2790 450,3240 405,3240 405,3285 945,3285 945,3240 900,3240 "
+       id="polygon582"
+       transform="matrix(0.02223246,0,0,0.02223246,11.408567,57.986033)" />
+    <polygon
+       style="fill:#cccccc;stroke:#000000;stroke-width:8px"
+       points="945,225 495,225 495,720 450,720 450,765 990,765 990,720 945,720 "
+       id="polygon584"
+       transform="matrix(0.02223246,0,0,0.02223246,11.408567,57.986033)" />
+    <polygon
+       style="fill:#cccccc;stroke:#000000;stroke-width:8px"
+       points="900,1575 450,1575 450,1935 405,1935 405,1980 945,1980 945,1935 900,1935 "
+       id="polygon586"
+       transform="matrix(0.02223246,0,0,0.02223246,11.408567,57.986033)" />
+    <rect
+       style="fill:#ffffff;stroke:#ff0000;stroke-width:0.17785968px"
+       x="39.421467"
+       y="94.002617"
+       width="15.00691"
+       height="8.003686"
+       id="rect588" />
+    <rect
+       style="fill:#ffffff;stroke:#ff0000;stroke-width:0.17785968px"
+       x="39.421467"
+       y="81.997093"
+       width="15.00691"
+       height="8.003686"
+       id="rect590" />
+    <rect
+       style="fill:#ffffff;stroke:#ff0000;stroke-width:0.17785968px"
+       x="39.421467"
+       y="121.01506"
+       width="15.00691"
+       height="8.003686"
+       id="rect592" />
+    <rect
+       style="fill:#ffffff;stroke:#ff0000;stroke-width:0.17785968px"
+       x="39.421467"
+       y="133.02058"
+       width="15.00691"
+       height="8.003686"
+       id="rect594" />
+    <text
+       style="font-style:normal;font-weight:normal;font-size:1.60073709px;font-family:'Helvetica Narrow';text-anchor:start;fill:#0000ff;stroke-width:0.02223246"
+       xml:space="preserve"
+       x="111.45464"
+       y="128.01828"
+       font-style="normal"
+       font-weight="normal"
+       font-size="72"
+       id="text596">CMDSCRIPT</text>
+    <rect
+       style="fill:#ffffff;stroke:#ff0000;stroke-width:0.17785968px"
+       x="83.441734"
+       y="132.02013"
+       width="13.005989"
+       height="4.001843"
+       rx="2.3344083"
+       id="rect598" />
+    <rect
+       style="fill:#ffffff;stroke:#ff0000;stroke-width:0.17785968px"
+       x="83.441734"
+       y="137.02243"
+       width="13.005989"
+       height="4.001843"
+       rx="2.3344083"
+       id="rect600" />
+    <rect
+       style="fill:#ffffff;stroke:#ff0000;stroke-width:0.17785968px"
+       x="83.441734"
+       y="142.02473"
+       width="14.00645"
+       height="4.001843"
+       rx="2.3344083"
+       id="rect602" />
+    <polyline
+       style="fill:none;stroke:#8f008f;stroke-width:8px"
+       points=" 4005,3555 5175,3555"
+       id="polyline604"
+       transform="matrix(0.02223246,0,0,0.02223246,11.408567,57.986033)" />
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:8px;stroke-linejoin:bevel"
+       points=" 225,450 226,449 229,442 236,430 245,418 256,409 270,405 283,408 290,414 293,420  295,427 302,436 315,450 328,464 335,473 338,480 340,486 347,492 360,495 374,491  385,482 394,470 401,458 404,451 405,450"
+       id="polyline606"
+       transform="matrix(0.02223246,0,0,0.02223246,11.408567,57.986033)" />
+    <circle
+       style="fill:#00d100;stroke:#008f00;stroke-width:0.17785968px"
+       cx="29.416859"
+       cy="121.01506"
+       r="0.51134658"
+       id="circle608" />
+    <circle
+       style="fill:#00d100;stroke:#008f00;stroke-width:0.17785968px"
+       cx="30.41732"
+       cy="64.989258"
+       r="0.51134658"
+       id="circle610" />
+    <circle
+       style="fill:#00d100;stroke:#008f00;stroke-width:0.17785968px"
+       cx="29.416859"
+       cy="94.002617"
+       r="0.51134658"
+       id="circle612" />
+    <polyline
+       style="fill:none;stroke:#0000ff;stroke-width:8px"
+       points=" 3870,3105 4365,2925"
+       clip-path="url(#cp2)"
+       id="polyline619"
+       transform="matrix(0.02223246,0,0,0.02223246,11.408567,57.986033)" />
+    <polygon
+       style="fill:#0000ff;stroke:#0000ff;stroke-width:8px;stroke-miterlimit:8"
+       points="4299,2965 4350,2931 4288,2937 "
+       stroke-miterlimit="8"
+       id="polygon621"
+       transform="matrix(0.02223246,0,0,0.02223246,11.408567,57.986033)" />
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:8px;stroke-linejoin:bevel"
+       points=" 180,2880 181,2879 184,2872 191,2860 200,2848 211,2839 225,2835 238,2838 245,2844  248,2850 250,2857 257,2866 270,2880 283,2894 290,2903 293,2910 295,2916 302,2922  315,2925 329,2921 340,2912 349,2900 356,2888 359,2881 360,2880"
+       id="polyline623"
+       transform="matrix(0.02223246,0,0,0.02223246,11.408567,57.986033)" />
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:8px;stroke-linejoin:bevel"
+       points=" 180,1710 181,1709 184,1702 191,1690 200,1678 211,1669 225,1665 238,1668 245,1674  248,1680 250,1687 257,1696 270,1710 283,1724 290,1733 293,1740 295,1746 302,1752  315,1755 329,1751 340,1742 349,1730 356,1718 359,1711 360,1710"
+       id="polyline625"
+       transform="matrix(0.02223246,0,0,0.02223246,11.408567,57.986033)" />
+    <text
+       style="font-style:normal;font-weight:bold;font-size:2.66789532px;font-family:'Helvetica Narrow';text-anchor:start;fill:#0000ff;stroke-width:0.02223246"
+       xml:space="preserve"
+       x="110.45418"
+       y="124.01644"
+       font-style="normal"
+       font-weight="bold"
+       font-size="120"
+       id="text627">upssched</text>
+    <text
+       style="font-style:normal;font-weight:bold;font-size:2.93468475px;font-family:'Helvetica Narrow';text-anchor:start;fill:#008f00;stroke-width:0.02223246"
+       xml:space="preserve"
+       x="84.4422"
+       y="124.01644"
+       font-style="normal"
+       font-weight="bold"
+       font-size="132"
+       id="text629">upsmon</text>
+    <text
+       style="font-style:normal;font-weight:bold;font-size:2.66789532px;font-family:'Helvetica Narrow';text-anchor:start;fill:#ff0000;stroke-width:0.02223246"
+       xml:space="preserve"
+       x="84.4422"
+       y="135.0215"
+       font-style="normal"
+       font-weight="bold"
+       font-size="120"
+       id="text631">upsc</text>
+    <text
+       style="font-style:normal;font-weight:bold;font-size:2.66789532px;font-family:'Helvetica Narrow';text-anchor:start;fill:#ff0000;stroke-width:0.02223246"
+       xml:space="preserve"
+       x="84.4422"
+       y="140.0238"
+       font-style="normal"
+       font-weight="bold"
+       font-size="120"
+       id="text633">upsrw</text>
+    <text
+       style="font-style:normal;font-weight:bold;font-size:2.66789532px;font-family:'Helvetica Narrow';text-anchor:start;fill:#ff0000;stroke-width:0.02223246"
+       xml:space="preserve"
+       x="84.4422"
+       y="145.02611"
+       font-style="normal"
+       font-weight="bold"
+       font-size="120"
+       id="text635">upscom</text>
+    <text
+       style="font-style:normal;font-weight:normal;font-size:2.13431621px;font-family:'Helvetica Narrow';text-anchor:start;fill:#8f008f;stroke-width:0.02223246"
+       xml:space="preserve"
+       x="103.45095"
+       y="144.02565"
+       font-style="normal"
+       font-weight="normal"
+       font-size="96"
+       id="text637">2, 1, 0, shutdown</text>
+    <text
+       style="font-style:normal;font-weight:bold;font-size:2.13431621px;font-family:'Helvetica Narrow';text-anchor:start;fill:#8f008f;stroke-width:0.02223246"
+       xml:space="preserve"
+       x="101.45003"
+       y="136.02197"
+       font-style="normal"
+       font-weight="bold"
+       font-size="96"
+       id="text639">upssched-cmd</text>
+    <text
+       style="font-style:normal;font-weight:normal;font-size:2.13431621px;font-family:'Helvetica Narrow';text-anchor:start;fill:#8f008f;stroke-width:0.02223246"
+       xml:space="preserve"
+       x="101.45003"
+       y="141.02428"
+       font-style="normal"
+       font-weight="normal"
+       font-size="96"
+       id="text641">shutdown-timer:</text>
+    <text
+       style="font-style:normal;font-weight:bold;font-size:2.13431621px;font-family:'Helvetica Narrow';text-anchor:start;fill:#000000;stroke-width:0.02223246"
+       xml:space="preserve"
+       x="22.413635"
+       y="127.01782"
+       font-style="normal"
+       font-weight="bold"
+       font-size="96"
+       id="text643">UPS-1</text>
+    <text
+       style="font-style:normal;font-weight:bold;font-size:2.13431621px;font-family:'Helvetica Narrow';text-anchor:start;fill:#000000;stroke-width:0.02223246"
+       xml:space="preserve"
+       x="23.414095"
+       y="69.991562"
+       font-style="normal"
+       font-weight="bold"
+       font-size="96"
+       id="text645">UPS-3</text>
+    <text
+       style="font-style:normal;font-weight:bold;font-size:1.86752665px;font-family:'Helvetica Narrow';text-anchor:start;fill:#000000;stroke-width:0.02223246"
+       xml:space="preserve"
+       x="23.414095"
+       y="72.992943"
+       font-style="normal"
+       font-weight="bold"
+       font-size="84"
+       id="text647">00328</text>
+    <text
+       style="font-style:normal;font-weight:bold;font-size:2.13431621px;font-family:'Helvetica Narrow';text-anchor:start;fill:#000000;stroke-width:0.02223246"
+       xml:space="preserve"
+       x="22.413635"
+       y="98.004463"
+       font-style="normal"
+       font-weight="bold"
+       font-size="96"
+       id="text649">UPS-2</text>
+    <text
+       style="font-style:normal;font-weight:bold;font-size:1.86752665px;font-family:'Helvetica Narrow';text-anchor:start;fill:#000000;stroke-width:0.02223246"
+       xml:space="preserve"
+       x="22.413635"
+       y="101.00584"
+       font-style="normal"
+       font-weight="bold"
+       font-size="84"
+       id="text651">XT766</text>
+    <text
+       style="font-style:normal;font-weight:bold;font-size:2.40110564px;font-family:'Helvetica Narrow';text-anchor:start;fill:#ff0000;stroke-width:0.02223246"
+       xml:space="preserve"
+       x="40.421928"
+       y="97.003998"
+       font-style="normal"
+       font-weight="bold"
+       font-size="108"
+       id="text653">upsdrvctl</text>
+    <text
+       style="font-style:normal;font-weight:bold;font-size:2.40110564px;font-family:'Helvetica Narrow';text-anchor:start;fill:#ff0000;stroke-width:0.02223246"
+       xml:space="preserve"
+       x="40.421928"
+       y="101.00584"
+       font-style="normal"
+       font-weight="bold"
+       font-size="108"
+       id="text655">+ driver</text>
+    <text
+       style="font-style:normal;font-weight:bold;font-size:2.40110564px;font-family:'Helvetica Narrow';text-anchor:start;fill:#ff0000;stroke-width:0.02223246"
+       xml:space="preserve"
+       x="40.421928"
+       y="84.998474"
+       font-style="normal"
+       font-weight="bold"
+       font-size="108"
+       id="text657">upsdrvctl</text>
+    <text
+       style="font-style:normal;font-weight:bold;font-size:2.40110564px;font-family:'Helvetica Narrow';text-anchor:start;fill:#ff0000;stroke-width:0.02223246"
+       xml:space="preserve"
+       x="40.421928"
+       y="89.000313"
+       font-style="normal"
+       font-weight="bold"
+       font-size="108"
+       id="text659">+ driver</text>
+    <text
+       style="font-style:normal;font-weight:normal;font-size:1.86752665px;font-family:'Helvetica Narrow';text-anchor:start;fill:#ff0000;stroke-width:0.02223246"
+       xml:space="preserve"
+       x="44.423771"
+       y="93.002159"
+       font-style="normal"
+       font-weight="normal"
+       font-size="84"
+       id="text661">ups.status:  [OL]</text>
+    <text
+       style="font-style:normal;font-weight:normal;font-size:1.86752665px;font-family:'Helvetica Narrow';text-anchor:start;fill:#ff0000;stroke-width:0.02223246"
+       xml:space="preserve"
+       x="44.423771"
+       y="105.00768"
+       font-style="normal"
+       font-weight="normal"
+       font-size="84"
+       id="text663">ups.status:  [OL CHRG]</text>
+    <text
+       style="font-style:normal;font-weight:bold;font-size:2.40110564px;font-family:'Helvetica Narrow';text-anchor:start;fill:#ff0000;stroke-width:0.02223246"
+       xml:space="preserve"
+       x="40.421928"
+       y="124.01644"
+       font-style="normal"
+       font-weight="bold"
+       font-size="108"
+       id="text665">upsdrvctl</text>
+    <text
+       style="font-style:normal;font-weight:bold;font-size:2.40110564px;font-family:'Helvetica Narrow';text-anchor:start;fill:#ff0000;stroke-width:0.02223246"
+       xml:space="preserve"
+       x="40.421928"
+       y="128.01828"
+       font-style="normal"
+       font-weight="bold"
+       font-size="108"
+       id="text667">+ driver</text>
+    <text
+       style="font-style:normal;font-weight:bold;font-size:2.40110564px;font-family:'Helvetica Narrow';text-anchor:start;fill:#ff0000;stroke-width:0.02223246"
+       xml:space="preserve"
+       x="40.421928"
+       y="136.02197"
+       font-style="normal"
+       font-weight="bold"
+       font-size="108"
+       id="text669">upsdrvctl</text>
+    <text
+       style="font-style:normal;font-weight:bold;font-size:2.40110564px;font-family:'Helvetica Narrow';text-anchor:start;fill:#ff0000;stroke-width:0.02223246"
+       xml:space="preserve"
+       x="40.421928"
+       y="140.0238"
+       font-style="normal"
+       font-weight="bold"
+       font-size="108"
+       id="text671">+ driver</text>
+    <text
+       style="font-style:normal;font-weight:normal;font-size:1.86752665px;font-family:'Helvetica Narrow';text-anchor:start;fill:#ff0000;stroke-width:0.02223246"
+       xml:space="preserve"
+       x="55.428837"
+       y="141.02428"
+       font-style="normal"
+       font-weight="normal"
+       font-size="84"
+       id="text673">ups.status:</text>
+    <text
+       style="font-style:normal;font-weight:normal;font-size:1.86752665px;font-family:'Helvetica Narrow';text-anchor:start;fill:#ff0000;stroke-width:0.02223246"
+       xml:space="preserve"
+       x="47.425152"
+       y="144.02565"
+       font-style="normal"
+       font-weight="normal"
+       font-size="84"
+       id="text675">[OL] / [OB] / [OL] ...</text>
+    <text
+       style="font-style:normal;font-weight:normal;font-size:1.86752665px;font-family:'Helvetica Narrow';text-anchor:start;fill:#ff0000;stroke-width:0.02223246"
+       xml:space="preserve"
+       x="49.426075"
+       y="132.02013"
+       font-style="normal"
+       font-weight="normal"
+       font-size="84"
+       id="text677">ups.status:  [OL]</text>
+    <text
+       style="font-style:normal;font-weight:normal;font-size:2.11666667px;font-family:Courier;text-anchor:start;fill:#000000;stroke-width:0.02223246;"
+       xml:space="preserve"
+       x="38.949577"
+       y="116.5601"
+       font-style="normal"
+       font-weight="normal"
+       font-size="60"
+       id="text679">big.svg</text>
+    <polyline
+       style="fill:none;stroke:#8f008f;stroke-width:8px;stroke-linejoin:bevel"
+       points=" 5040,3105 5043,3106 5050,3107 5059,3109 5071,3112 5083,3116 5096,3121 5108,3128  5120,3138 5130,3150 5136,3160 5140,3169 5143,3176 5145,3182 5146,3186 5148,3189  5149,3191 5149,3194 5150,3197 5149,3201 5147,3208 5144,3216 5138,3227 5130,3240  5117,3255 5103,3268 5088,3280 5072,3290 5057,3299 5041,3308 5027,3315 4995,3330 "
+       clip-path="url(#cp3)"
+       id="polyline686"
+       transform="matrix(0.02223246,0,0,0.02223246,11.408567,57.986033)" />
+    <polyline
+       style="fill:#8f008f;stroke:#8f008f;stroke-width:8px;stroke-miterlimit:8"
+       points=""
+       stroke-miterlimit="8"
+       id="polyline688"
+       transform="matrix(0.02223246,0,0,0.02223246,11.408567,57.986033)" />
+    <text
+       style="font-style:normal;font-weight:normal;font-size:1.60073709px;font-family:'Helvetica Narrow';text-anchor:start;fill:#008f00;stroke-width:0.02223246"
+       xml:space="preserve"
+       x="85.442657"
+       y="128.01828"
+       font-style="normal"
+       font-weight="normal"
+       font-size="72"
+       id="text690">NOTIFYCMD</text>
+  </g>
+</svg>
