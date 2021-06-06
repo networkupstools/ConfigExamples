@@ -155,13 +155,14 @@
 \newcommand{\REPLBATT}{\textcolor{MONCOLOUR}{\textsc{replbatt}}}
 \newcommand{\NOCOMM}{\textcolor{MONCOLOUR}{\textsc{nocomm}}}
 \newcommand{\NOPARENT}{\textcolor{NUTCOLOUR}{\textsc{noparent}}}
-% Other UPS-mon EVENTs
-\newcommand{\FSD}{\textcolor{UPSMONCOLOUR}{\textsc{fsd}}}
+% Other UPSmon.py specific EVENTs
 \newcommand{\COMM}{\textcolor{UPSMONCOLOUR}{\textsc{comm}}}
+\newcommand{\FSD}{\textcolor{UPSMONCOLOUR}{\textsc{fsd}}}
+\newcommand{\LS}{\textcolor{UPSMONCOLOUR}{\textsc{ls}}}
 \newcommand{\None}{\textcolor{UPSMONCOLOUR}{\textsf{None}}}
 \newcommand{\TICK}{\textcolor{UPSMONCOLOUR}{\textsc{tick}}}
-\newcommand{\TO}{\textcolor{UPSMONCOLOUR}{\textsc{to}}}
 \newcommand{\TIMEOUT}{\textcolor{UPSMONCOLOUR}{\textsc{timeout}}}
+\newcommand{\TO}{\textcolor{UPSMONCOLOUR}{\textsc{to}}}
 \newcommand{\TOCK}{\textcolor{UPSMONCOLOUR}{\textsc{tock}}}
 
 % Colouring for statuses, status changes, NOTIFY events and EVENTs
@@ -5334,8 +5335,26 @@ command \texttt{systemctl status nut-monitor.service} . The report should show
 %                            P A R T  2                                  %
 %                                                                        %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 \clearpage
+
+% Layout for the body.  See the LaTeX Companion, p.96.
+%   Even numbered page           Centre fold        Odd numbered page
+% ,-------------------------------------------------------------------,
+% | left-even  centre-even right-even | left-odd centre-odd right-odd | 
+% |-----------------------------------|-------------------------------|
+% |             Text area             |           Text area           |
+% |-----------------------------------|-------------------------------|
+% | left-even  centre-even right-even | left-odd centre-odd right-odd | 
+% '-------------------------------------------------------------------'
+\lhead[TLS Shims 1.2]{TLS Shims 1.2}                          % \lhead[left-header-even]{left-header-odd}
+\chead[ConfigExamples \Version]%
+      {ConfigExamples \Version}                               % \chead[centre-header-even]{centre-header-odd}
+\rhead[Build \isodate]{Build \isodate}                        % \rhead[right-header-even]{right-header-odd}
+\lfoot[]{}                                                    % \lfoot[left-footer-even]{left-footer-odd}
+\cfoot[\fancyplain{}{Page \thepage\ of \pageref{LastPage}}]%
+      {\fancyplain{}{Page \thepage\ of \pageref{LastPage}}}   % \cfoot[centre-footer-even]{centre-footer-odd}
+\rfoot[]{}                                                    % \rfoot[right-footer-even]{right-footer-odd}
+
 \setcounter{section}{19}
 \begin{center}
 \addtocontents{toc}{\protect\vspace{3mm}}
@@ -5352,8 +5371,8 @@ command \texttt{systemctl status nut-monitor.service} . The report should show
   this security problem with a pair of TLS support shims sitting one beside
   \upsd\ and the other in the client system.}
 
-\textit{This Part provides descriptions for the Python3 script \upsdTLS,
-  script \upsmonTLS\ and script \mkNUTcert.}
+\textit{This Part provides descriptions for version 1.2 of the Python3 script
+  \upsdTLS, script \upsmonTLS\ and script \mkNUTcert.}
 
 \textit{The scripts and their SHA1 check sums may be downloaded from
         \href{rogerprice.org/NUT}{http://rogerprice.org/NUT}}
@@ -6015,8 +6034,26 @@ designated to run \upsd\ should have access to the key.  No-one else.
 %                            P A R T  3                                  %
 %                                                                        %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 \clearpage
+
+% Layout for the body.  See the LaTeX Companion, p.96.
+%   Even numbered page           Centre fold        Odd numbered page
+% ,-------------------------------------------------------------------,
+% | left-even  centre-even right-even | left-odd centre-odd right-odd | 
+% |-----------------------------------|-------------------------------|
+% |             Text area             |           Text area           |
+% |-----------------------------------|-------------------------------|
+% | left-even  centre-even right-even | left-odd centre-odd right-odd | 
+% '-------------------------------------------------------------------'
+\lhead[TLS \UPSmon\ 1.2]{TLS \UPSmon\ 1.2}                    % \lhead[left-header-even]{left-header-odd}
+\chead[ConfigExamples \Version]%
+      {ConfigExamples \Version}                               % \chead[centre-header-even]{centre-header-odd}
+\rhead[Build \isodate]{Build \isodate}                        % \rhead[right-header-even]{right-header-odd}
+\lfoot[]{}                                                    % \lfoot[left-footer-even]{left-footer-odd}
+\cfoot[\fancyplain{}{Page \thepage\ of \pageref{LastPage}}]%
+      {\fancyplain{}{Page \thepage\ of \pageref{LastPage}}}   % \cfoot[centre-footer-even]{centre-footer-odd}
+\rfoot[]{}                                                    % \rfoot[right-footer-even]{right-footer-odd}
+
 \setcounter{section}{29}
 \begin{center}
 \addtocontents{toc}{\protect\vspace{3mm}}
@@ -6030,7 +6067,7 @@ designated to run \upsd\ should have access to the key.  No-one else.
 \textit{Part \ref{part:NUT} of this documentation discussed the way in which
   UPS activity reported by \upsd\ can be monitored using the monitoring
   software provided with NUT 2.7.4.  This part covers the use of Python3
-  scripts and openSSL to monitor the same UPS activity.  Part
+  scripts and openSSL/TLS to monitor the same UPS activity.  Part
   \ref{part:appendices} provides technical appendices.}
 
 \textit{This Part provides descriptions of Python3 scripts \UPSmon\ and
@@ -6045,7 +6082,7 @@ designated to run \upsd\ should have access to the key.  No-one else.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %\clearpage   % 
 %\newcolumn
-\section{\Hsep\ Python3 script \UPSmon}\label{section:Umintro}
+\section{\Hsep\ Python3 script \UPSmon\ version 1.2}\label{section:Umintro}
 
 \begin{figure}[ht]
 \vspace{-6mm}
@@ -6064,8 +6101,8 @@ designated to run \upsd\ should have access to the key.  No-one else.
 
 \UPSmon\ is a Python3 script which replaces \upsmon, \upssched\ and
 \upsschedcmd.  The configuration files \upsmonconf\ and \upsschedconf\ are
-replaced by a single configuration file \UPSmonconf.  The current version of
-\UPSmon\ is ``experimental'', intended for experiment and demonstration.
+replaced by a single configuration file \UPSmonconf.  The current version 1.2
+of \UPSmon\ is ``experimental'', intended for experiment and demonstration.
 
 \subsubsection{\Hsep\ Principal differences between \upsmon\ and \UPSmon}\label{section:differences}
 
@@ -6083,14 +6120,15 @@ the script provides 116 error and warning messages, and the \texttt{-D} and
 operations.
 
 \li Unlike \upsmon, \UPSmon\ does not retain the parent process when forking
-to a non-privileged user.  This improves security, but imples that the
+to a non-privileged user.  This improves security, but implies that the
 non-privileged user such as \texttt{nut} has \texttt{sudo} rights for programs
 \texttt{wall}, \texttt{notify-send} and \texttt{shutdown}.
 
 \li \UPSmon\ assumes that it will be managing a large number of physical and
 virtual UPS and other power supply units.  The management may be of the type
-``master'' or ``slave'' or simply as an observer with the master/slave
-shutdown decisions taken elsewhere.
+``primary'' or ``secondary'', known formerly as ``master'' or ``slave'', or
+simply as an observer with the master/slave shutdown decisions taken
+elsewhere.
 
 \li The UPS units, real and virtual, are collected into groups.  Every UPS
 must be in exactly one group.
@@ -6178,6 +6216,10 @@ substitution is extended to provide the substitutions shown in table
 \li The low battery status \LB\ provided by \upsd\ is supplemented by three
 further low battery statuses \LBi, \LBii\ and \LBiii\ for which the trip
 levels may be set in \UPSmonconf.
+
+\li When the sum of the \texttt{POWERVALUE} in a group with status \OL\ does
+not meet the group's \texttt{MINSUPPLIES} requirement, \UPSmon\ raises status
+\LS.  In \upsmon\ this is implicit in the client's logic.
 
 \eol
 
@@ -6376,8 +6418,18 @@ log for warnings and other error messages.  Look for the reports beginning
 \EVENT{\None}{\RB}      & \EVENT{\RB}{\None}       & The UPS needs/no longer needs to have its battery replaced. \\ \hline
 \EVENT{\None}{\TEST}    & \EVENT{\TEST}{\None}     & The UPS is/is not now performing a test. \\ \hline
 \EVENT{\None}{\TRIM}    & \EVENT{\TRIM}{\None}     & The UPS is now trimming/not trimming the output voltage. \\ \hline\hline
+\end{tabular}
+\caption{Symbols used to represent events monitored by \UPSmon.  1 of 2.\label{fig:UPSmonEVENTa}}
+\end{center}
+\end{figure}
+
+\begin{figure}[ht]
+\begin{center}
+\begin{tabular}{|r|l|p{0.65\LinePrinterwidth}|}
+\hline
 \multicolumn{3}{|c|}{Other EVENTS monitored by \UPSmon} \\ \hline
 \EVENT{\COMM}{\NOCOMM}  & \EVENT{\NOCOMM}{\COMM}   & Communication with the UPS in now lost/restored. \\ \hline
+\EVENT{\None}{\FSD}     & \EVENT{\FSD}{\None}      & The UPS is/is not now in Forced ShutDown mode. \\ \hline
 \EVENT{\None}{\LBi}     & \EVENT{\LBi}{\None}      & The UPS battery charge is now low/no longer 
                                                      low with respect to level $L$ defined by declaration
                                                      \texttt{LET battery.charge.low.1 = '}$L$\texttt{'}. \\ \hline
@@ -6387,12 +6439,14 @@ log for warnings and other error messages.  Look for the reports beginning
 \EVENT{\None}{\LBiii}   & \EVENT{\LBiii}{\None}    & The UPS battery charge is now low/no longer
                                                      low with respect to level $L$ defined by declaration
                                                      \texttt{LET battery.charge.low.3 = '}$L$\texttt{'}. \\ \hline
-\EVENT{\None}{\FSD}     & \EVENT{\FSD}{\None}      & The UPS is/is not now in Forced ShutDown mode. \\ \hline
+\EVENT{\None}{\LS}      & \EVENT{\LS}{\None}       & With a group, the total power value of the UPS units
+                                                     with status \OL\ does
+                                                     not satisfy the MINSUPPLIES declaration. \\ \hline
 \EVENT{\None}{\TICK}    & \EVENT{\TICK}{\None}     & A heartbeat UPS has/has not generated a \status{\TICK}. \\ \hline
 \EVENT{\None}{\TOCK}    & \EVENT{\TOCK}{\None}     & A heartbeat UPS has/has not generated a \status{\TOCK}. \\ \hline
 \multicolumn{2}{|c|}{\EVENT{\TO}{my-timer}}        & Timer ``my-timer'' has completed. \\ \hline
 \end{tabular}
-\caption{Symbols used to represent events monitored by \UPSmon.\label{fig:UPSmonEVENT}}
+\caption{Symbols used to represent events monitored by \UPSmon.  2 of 2\label{fig:UPSmonEVENT}}
 \end{center}
 \end{figure}
 
@@ -6556,20 +6610,21 @@ Within each group the following declarations may appear:
 \item[\texttt{MONITOR \textit{ups-name} POWERVAL \textit{number} UPSDUSER
     \textit{name} PASSWORD \textit{quotetext} TYPE
     \textit{name}}] \ \\
-  Each UPS unit to be managed must be declared.
-  The \textit{ups-name} must match the name in the \upsconf\ declaration.
-  See for example line \Ref{LP100}.  The \texttt{POWERVAL} is the number of
-  power supplies that this UPS feeds.  The \texttt{UPSDUSER} is the ``user''
-  declared in \upsdusers.  See line \Ref{LP120}.  The \texttt{PASSWORD} is the
-  value declared in \upsdusers.  See line \Ref{LP121}.  The \texttt{TYPE}
-  value must be \texttt{master} or \texttt{slave}.  In NUT's
+  Each UPS unit to be managed must be declared.  The \textit{ups-name} must
+  match the name in the \upsconf\ declaration.  See for example line
+  \Ref{LP100}.  The \texttt{POWERVAL} is the number of power supplies that
+  this UPS feeds.  The \texttt{UPSDUSER} is the ``user'' declared in
+  \upsdusers.  See line \Ref{LP120}.  The \texttt{PASSWORD} is the value
+  declared in \upsdusers.  See line \Ref{LP121}.  The \texttt{TYPE} value must
+  be \texttt{primary} or \texttt{secondary}.  The earlier values
+  \texttt{master}, \texttt{slave} are accepted.  In NUT's
   \upsmonconf\ \texttt{master} means this system will shutdown last, allowing
   any slaves time to shutdown first.  The declaration is included here to
   facilitate interworking with \upsmon\ but in \UPSmon, it is merely a
   declaration of intention, since the logic is decided by the declared
   actions.
 
-  E.g. \texttt{MONITOR ups1 POWERVAL 1 UPSDUSER leboss PASSWORD 'sekret' TYPE master}
+  E.g. \texttt{MONITOR ups1 POWERVAL 1 UPSDUSER leboss PASSWORD 'sekret' TYPE primary}
 
 \item[\texttt{MINSUPPLIES} \textit{number}] \hspace{7mm} 
 
@@ -6668,11 +6723,12 @@ the action you wish to trace.
   Send the \textit{quotetexts} to STDOUT.  When UPSmon is daemonized,
   \texttt{PRINT} is ignored.  Use \texttt{NUTLOG} instead.
 
-\item[\textit{condition} \texttt{SETFSD} \textit{ups-name}] \hspace{7mm}
-This action sets the ``forced shutdown'' flag on each slave UPS when the
-master plans to power it off. This is done so that slave systems will know
-about the power loss and shut down before the UPS power disappears.  \UPSmon,
-like \upsmon, in master mode is the primary user of this function.
+\item[\textit{condition} \texttt{SETFSD} \textit{ups-name}] \hspace{7mm} This
+  action sets the ``forced shutdown'' flag on each secondary (slave) UPS when
+  the primary (master) plans to power it off. This is done so that secondary
+  (slave) systems will know about the power loss and shut down before the UPS
+  power disappears.  \UPSmon, like \upsmon, in primary (master) mode is the
+  primary user of this function.
 
 Setting this flag makes \status{FSD} appear for this UPS.  This \status{FSD}
 should be treated just like a \status{OB LB}.  To use this action, you need
@@ -6767,17 +6823,7 @@ done manually, but for simple cases, probably the majority, in which
 can either use the output of this tool or take it as the starting point for a
 customised configuration.
 
-\subsection{\Hsep\ Configuration tool \mkUPSmonconf}\label{section:mkUPSmonconf}
-
-\mkUPSmonconf\ is a Python3 script which will build a simple configuration
-file \UPSmonconf\ for \UPSmon.  The output is to STDOUT. The status is
-``experimental''. The script is intended for demonstration and experiment.
-The license is GPL v3 or later at your choice, with support in the
-\mailinglist.
-
-The script has options which you select to introduce site-specific data.  You
-have to specify all the options.  To see the options to be specified you can
-enter command \texttt{mkUPSmonconf.py -\/-help}
+\subsection{\Hsep\ Configuration tool \mkUPSmonconf\ version 1.2}\label{section:mkUPSmonconf}
 
 \begin{figure}[ht]
 \begin{center}
@@ -6795,6 +6841,16 @@ enter command \texttt{mkUPSmonconf.py -\/-help}
 \vspace{-6mm}
 \caption{Command \texttt{mkUPSmonconf.py -\/-help}}.\label{fig:mkUPSmonconf}
 \end{figure}
+
+\mkUPSmonconf\ is a Python3 script which will build a simple configuration
+file \UPSmonconf\ for \UPSmon.  The output is to STDOUT. The status is
+``experimental''. The script is intended for demonstration and experiment.
+The license is GPL v3 or later at your choice, with support in the
+\mailinglist.
+
+The script has options which you select to introduce site-specific data.  You
+have to specify all the options.  To see the options to be specified you can
+enter command \texttt{mkUPSmonconf.py -\/-help}
 
 Let's look at these arguments in more detail.  
 
@@ -6859,6 +6915,7 @@ Let's look at these arguments in more detail.
 
 \end{description}
 
+\clearpage
 \subsection{\Hsep\ Using configuration tool \mkUPSmonconf}\label{section:usemkUPSmonconf}
 
 Call the program from the command line.  If you forget an option you will get
@@ -6869,7 +6926,7 @@ typical call is
 \begin{center}
 \begin{LinePrinter}[1.0\LinePrinterwidth]
 \Clunk[ST100]  & \verb`mkUPSmonconf.py\` \\
-\Clunk[ST101]  & \verb`   --plan timed --ups Eaton --upsdname localhost --upsdport 401\` \\
+\Clunk[ST101]  & \verb`   --plan timed --ups UPS-1 --upsdname localhost --upsdport 401\` \\
 \Clunk[ST102]  & \verb`   --clientcertfile /etc/ups/mkNUTcert/titan-client.cert.pem\` \\
 \Clunk[ST103]  & \verb`   --upsduser upsmaster --upsdpass sekret --smtpserver mail.gandi.net\` \\
 \Clunk[ST104]  & \verb`   --smtpport 465 --smtpuser mailbox@rogerprice.org\` \\
@@ -6888,6 +6945,15 @@ that the values for options \texttt{-\/-emailfrom} and \texttt{-\/-emailto}
 have to be quoted to prevent Bash from interpreting what it would consider to be
 \texttt{<} and \texttt{>} redirections.
 
+\vspace*{\fill}
+
+\begin{center}
+   \epsfig{file=UPS-4.jpg, height=36mm}
+\end{center}
+
+\vspace*{\fill}
+
+\newcolumn
 \subsection{\Hsep\ \UPSmonconf\ configuration examples}\label{section:confex}
 
 Let's look at a shutdown plan generated by \mkUPSmonconf.
@@ -6901,7 +6967,7 @@ Let's look at a shutdown plan generated by \mkUPSmonconf.
                & \verb`              on 2020-10-14T14:36:42.344212` \\
 \Clunk[ST201]  & \verb`# Python version 3.4.6 (default, Mar 22 2017, 12:26:13) [GCC] running on titan` \\
 \Clunk[ST202]  & \verb`# Calling command:` \\
-               & \verb` ./mkUPSmonconf.py --plan timed --ups Eaton --upsdname localhost` \\
+               & \verb` ./mkUPSmonconf.py --plan timed --ups UPS-1 --upsdname localhost` \\
                & \verb`     --upsdport 401 --clientcertfile /etc/ups/mkNUTcert/titan-client.cert.pem`\\
                & \verb`     --upsduser upsmaster --upsdpass sekret --smtpserver mail.gandi.net`\\
                & \verb`     --smtpport 465 --smtpuser mailbox@rogerprice.org --smtppass qwertyuiop` \\
@@ -6960,29 +7026,29 @@ sysadmin would probably prefer address \texttt{/etc/nut/...}  See table
 \begin{LinePrinter}[1.1\LinePrinterwidth]
 \Clunk[ST300]  & \verb`# The local UPS units` \\
 \Clunk[ST301]  & \verb`GROUP LOCAL HOST localhost PORT 401 CERTFILE Certfile` \\
-\Clunk[ST302]  & \verb`MONITOR Eaton POWERVAL 1 UPSDUSER upsmaster PASSWORD «sekret» TYPE master` \\
+\Clunk[ST302]  & \verb`MONITOR UPS-1 POWERVAL 1 UPSDUSER upsmaster PASSWORD «sekret» TYPE primary` \\
                & \\
 \Clunk[ST303]  & \verb`# Timed plan specific actions` \\
 \Clunk[ST304]  & \verb`LET Msg-2-min = banner " On battery, shutdown in 2 mins, save your work ..."` \\
 \Clunk[ST305]  & \verb`LET Msg-1-min = banner " On battery, shutdown in 1 min, save your work ..."` \\
-\Clunk[ST306]  & \verb`WHEN Eaton REPORTS OL->OB :   NOTIFY Msg-2-min NUTLOG Msg-2-min` \\
+\Clunk[ST306]  & \verb`WHEN UPS-1 REPORTS OL->OB :   NOTIFY Msg-2-min NUTLOG Msg-2-min` \\
 \Clunk[ST307]  & \verb`                              STARTTIMER two-min 120 STARTTIMER one-min 60` \\
-\Clunk[ST308]  & \verb`WHEN Eaton TIMEOUT one-min :  NOTIFY Msg-1-min NUTLOG Msg-1-min WALL Msg-1-min` \\
+\Clunk[ST308]  & \verb`WHEN UPS-1 TIMEOUT one-min :  NOTIFY Msg-1-min NUTLOG Msg-1-min WALL Msg-1-min` \\
 \Clunk[ST309]  & \verb`                              EMAIL FROM « <UPSmon@rogerprice.org> »` \\
 \Clunk[ST310]  & \verb`                                    TO   « Roger Price <roger@rogerprice.org> »` \\
 \Clunk[ST311]  & \verb`                                    SUBJECT «Msg-1-min»` \\
 \Clunk[ST312]  & \verb`                                    MESSAGE «Msg-1-min»` \\
-\Clunk[ST313]  & \verb`WHEN Eaton TIMEOUT two-min :  NOTIFY Msg-shutdown NUTLOG Msg-shutdown` \\
+\Clunk[ST313]  & \verb`WHEN UPS-1 TIMEOUT two-min :  NOTIFY Msg-shutdown NUTLOG Msg-shutdown` \\
 \Clunk[ST314]  & \verb`                              WALL Msg-shutdown STARTTIMER final-delay 5` \\
-\Clunk[ST315]  & \verb`WHEN Eaton REPORTS OB->OL :   NOTIFY Msg-OL NUTLOG Msg-OL WALL Msg-OL` \\
+\Clunk[ST315]  & \verb`WHEN UPS-1 REPORTS OB->OL :   NOTIFY Msg-OL NUTLOG Msg-OL WALL Msg-OL` \\
 \Clunk[ST316]  & \verb`                              CANCELTIMER two-min CANCELTIMER one-min`\\
                & \verb`                              CANCELTIMER final-delay` \\
 \Clunk[ST317]  & \verb`# End of timed plan specific actions` \\
                & \\
 \Clunk[ST318]  & \verb`# Shutdown on low battery` \\
-\Clunk[ST319]  & \verb`WHEN Eaton REPORTS None->LB : NOTIFY Msg-shutdown NUTLOG Msg-shutdown` \\
+\Clunk[ST319]  & \verb`WHEN UPS-1 REPORTS None->LB : NOTIFY Msg-shutdown NUTLOG Msg-shutdown` \\
 \Clunk[ST320]  & \verb`                              WALL MSG-shutdown STARTTIMER final-delay 5` \\
-\Clunk[ST321]  & \verb`WHEN Eaton TIMEOUT final-delay : SHUTDOWNCMD "/sbin/shutdown -h 0"` \\
+\Clunk[ST321]  & \verb`WHEN UPS-1 TIMEOUT final-delay : SHUTDOWNCMD "/sbin/shutdown -h 0"` \\
 \end{LinePrinter}
 \end{center}
 \vspace{-6mm}
@@ -7001,7 +7067,7 @@ identifies the \upsd\ host system and the port. See \NUTman{upsmon.conf}.
 group, and adds the \texttt{CERTFILE} declaration.
 
 \li Line \ref{ST302} resembles the \upsmonconf\ declaration, but with the
-inclusion of additional keywords for clarification. ``\texttt{Eaton}''
+inclusion of additional keywords for clarification. ``\texttt{UPS-1}''
 declares the UPS name, the \texttt{HOST} and \texttt{PORT} have already been
 declared.  The UPS name should correspond to the name specified in \upsconf.
 See line \ref{LP100}.
@@ -7044,24 +7110,24 @@ system shutdown.
 \begin{center}
 \begin{LinePrinter}[1.1\LinePrinterwidth]
 \Clunk[ST400]  & \verb`# Warning for battery replacement` \\
-\Clunk[ST401]  & \verb`WHEN Eaton REPORTS None->RB : STARTTIMER rbwarntime 43200` \\
+\Clunk[ST401]  & \verb`WHEN UPS-1 REPORTS None->RB : STARTTIMER rbwarntime 43200` \\
 \Clunk[ST4a1]  & \verb`                              NUTLOG Msg-RB NOTIFY Msg-RB` \\
 \Clunk[ST402]  & \verb`                              EMAIL FROM « <UPSmon@rogerprice.org> »` \\
 \Clunk[ST403]  & \verb`                                    TO   « Roger Price <roger@rogerprice.org> »` \\
 \Clunk[ST404]  & \verb`                                    SUBJECT «Msg-RB»` \\
 \Clunk[ST405]  & \verb`                                    MESSAGE «Msg-RB»` \\
-\Clunk[ST406]  & \verb`WHEN Eaton TIMEOUT rbwarntime : STARTTIMER rbwarntime 43200` \\
+\Clunk[ST406]  & \verb`WHEN UPS-1 TIMEOUT rbwarntime : STARTTIMER rbwarntime 43200` \\
                & \verb`                                NUTLOG Msg-RB NOTIFY Msg-RB` \\
-\Clunk[ST407]  & \verb`WHEN Eaton REPORTS RB->None : CANCELTIMER rbwarntime` \\
+\Clunk[ST407]  & \verb`WHEN UPS-1 REPORTS RB->None : CANCELTIMER rbwarntime` \\
                & \\
-\Clunk[ST408]  & \verb`# Warning that UPSmon has lost UPS Eaton.  Shut down on NOCOMM when OB.` \\
-\Clunk[ST409]  & \verb`WHEN Eaton REPORTS COMM->NOCOMM : STARTTIMER nocommwarntime 300` \\
+\Clunk[ST408]  & \verb`# Warning that UPSmon has lost UPS UPS-1.  Shut down on NOCOMM when OB.` \\
+\Clunk[ST409]  & \verb`WHEN UPS-1 REPORTS COMM->NOCOMM : STARTTIMER nocommwarntime 300` \\
 \Clunk[ST410]  & \verb`                                  IF OL->OB NOTIFY Msg-shutdown` \\
 \Clunk[ST411]  & \verb`                                  IF OL->OB NUTLOG Msg-shutdown` \\
 \Clunk[ST412]  & \verb`                                  IF OL->OB WALL Msg-shutdown` \\
 \Clunk[ST413]  & \verb`                                  IF OL->OB STARTTIMER final-delay 5` \\
-\Clunk[ST414]  & \verb`WHEN Eaton TIMEOUT nocommwarntime : NUTLOG Msg-NOCOMM NOTIFY Msg-NOCOMM` \\
-\Clunk[ST415]  & \verb`WHEN Eaton REPORTS NOCOMM->COMM : CANCELTIMER nocommwarntime` \\
+\Clunk[ST414]  & \verb`WHEN UPS-1 TIMEOUT nocommwarntime : NUTLOG Msg-NOCOMM NOTIFY Msg-NOCOMM` \\
+\Clunk[ST415]  & \verb`WHEN UPS-1 REPORTS NOCOMM->COMM : CANCELTIMER nocommwarntime` \\
                & \verb`                                  NUTLOG Msg-COMM NOTIFY Msg-COMM` \\
 \end{LinePrinter}
 \end{center}
@@ -7218,7 +7284,7 @@ system administrator and to the NUT log file.  \eol
 \Clunk[ST504]  & \verb`LET Msg-HB-start = banner " Event %(e)s Start HB-timer"` \\
 \Clunk[ST505]  & \verb`LET MSG-HB-fails = banner " %(u)s FAILURE."` \\
                & \verb`                   " I have not received expected TICK/TOCK status change."` \\
-\Clunk[ST506]  & \verb`MONITOR heartbeat POWERVAL 0 UPSDUSER upsmaster PASSWORD «sekret» TYPE master` \\
+\Clunk[ST506]  & \verb`MONITOR heartbeat POWERVAL 0 UPSDUSER upsmaster PASSWORD «sekret» TYPE primary` \\
 \Clunk[ST507]  & \verb`MINSUPPLIES 0` \\
 \Clunk[ST508]  & \verb`WHEN heartbeat REPORTS None->TICK : CANCELTIMER tock-timer` \\
 \Clunk         & \verb`                                    STARTTIMER tick-timer 660` \\
@@ -7252,7 +7318,7 @@ the users and to the NUT log file.
 \begin{LinePrinter}[1.1\LinePrinterwidth]
 \Clunk[ST601]  & \verb`# Standard plan specific actions` \\
 \Clunk[ST602]  & \verb`LET Msg-OB = banner " Power failure, possible shutdown, save your work ..."` \\
-\Clunk[ST603]  & \verb`WHEN [UPS] REPORTS OL->OB :   NOTIFY Msg-OB NUTLOG Msg-OB WALL Msg-OB` \\
+\Clunk[ST603]  & \verb`WHEN UPS-1 REPORTS OL->OB :   NOTIFY Msg-OB NUTLOG Msg-OB WALL Msg-OB` \\
 \Clunk[ST604]  & \verb`# End of standard plan specific actions` \\
 \end{LinePrinter}
 \end{center}
@@ -7260,6 +7326,60 @@ the users and to the NUT log file.
 \caption{Standard shutdown plan differences}\label{fig:confex.5}
 \end{figure}
 
+\subsection{\Hsep\ Redundant power supplies}\label{section:redundant}
+
+\textit{Please see section \ref{section:dual} and sections ``Power values''
+  and ``Redundant power supplies'' in \NUTman{upsmon}.  The \upsmon\ logic is
+  built into the code rather than the configuration file and follows the
+  spirit of the standard shutdown plan preferred by \upsmon.}
+
+\UPSmon\ allows the system administrator to customise the logic using the
+configuration file.
+
+\subsubsection{\Hsep\ \texttt{MINSUPPLIES} failure: Timed shutdown plan}\label{section:redundant.timed}
+
+The configuration for a timed shutdown plan for redundant power supplies is
+very similar to an \EVENT{\None}{\OB} timed shutdown : the status \LS\ meaning
+``Low Supplies'' replaces the status \OB.  \LS\ says that within a given group,
+the total powervalue of the UPS units with status \OL\ is not sufficient to
+meet the \texttt{MINSUPPLIES} criterion.
+
+\begin{figure}[ht]
+\begin{center}
+\begin{LinePrinter}[1.1\LinePrinterwidth]
+\Clunk[LS601]  & \verb`# Timed shutdown on MINSUPPLIES failure` \\
+\Clunk[LS602]  & \verb`LET Msg-LS = banner " Powervalue failure.  MINSUPPLIES not satisfied."` \\
+\Clunk[LS603]  & \verb`WHEN UPS-1 REPORTS None->LS : NOTIFY Msg-LS    NUTLOG Msg-LS    WALL Msg-LS` \\
+\Clunk[LS604]  & \verb`                              EMAIL FROM « <UPSmon@rogerprice.org> »` \\
+\Clunk[LS605]  & \verb`                                    TO   « Roger Price <roger@rogerprice.org> »` \\
+\Clunk[LS606]  & \verb`                                    SUBJECT «Msg-LS»` \\
+\Clunk[LS607]  & \verb`                                    MESSAGE «Msg-LS»` \\
+\Clunk[LS608]  & \verb`                              NOTIFY Msg-2-min NUTLOG Msg-2-min WALL Msg-2-min` \\
+\Clunk[LS609]  & \verb`                              STARTTIMER two-min 120 STARTTIMER one-min 60` \\
+\Clunk[LS610]  & \verb`WHEN UPS-1 REPORTS LS->None : NOTIFY Msg-OL    NUTLOG Msg-OL    WALL Msg-OL` \\
+\Clunk[LS611]  & \verb`                              CANCELTIMER two-min CANCELTIMER one-min` \\
+\Clunk[LS612]  & \verb`                              CANCELTIMER final-delay` \\
+\end{LinePrinter}
+\end{center}
+\vspace{-6mm}
+\caption{Timed shutdown on \texttt{MINSUPPLIES} failure}\label{fig:redundant.timed}
+\end{figure}
+
+\subsubsection{\Hsep\ \texttt{MINSUPPLIES} failure: Standard shutdown plan}\label{section:redundant.standard}
+
+Shutting down a redundant system using the \upsmon\ logic of waiting for
+\LB\ is left as as exercise for the reader.  \textit{If that's what you really
+  want, why not go on using \upsmon?}
+
+\vspace*{\fill}
+
+\begin{center}
+   \epsfig{file=UPS-4.jpg, height=36mm}
+\end{center}
+
+\vspace*{\fill}
+
+\newcolumn
 \section{\Hsep\ \UPSmon\ installation checklist}\label{section:checklist}
 
 Here is the editor's checklist of the things to do to install and run \UPSmon.
@@ -7337,6 +7457,25 @@ openSUSE machine gives the output shown in figure \ref{fig:runtime}.
 %                                                                        %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \clearpage
+
+% Layout for the body.  See the LaTeX Companion, p.96.
+%   Even numbered page           Centre fold        Odd numbered page
+% ,-------------------------------------------------------------------,
+% | left-even  centre-even right-even | left-odd centre-odd right-odd | 
+% |-----------------------------------|-------------------------------|
+% |             Text area             |           Text area           |
+% |-----------------------------------|-------------------------------|
+% | left-even  centre-even right-even | left-odd centre-odd right-odd | 
+% '-------------------------------------------------------------------'
+\lhead[Appendices]{Appendices}                                % \lhead[left-header-even]{left-header-odd}
+\chead[ConfigExamples \Version]%
+      {ConfigExamples \Version}                               % \chead[centre-header-even]{centre-header-odd}
+\rhead[Build \isodate]{Build \isodate}                        % \rhead[right-header-even]{right-header-odd}
+\lfoot[]{}                                                    % \lfoot[left-footer-even]{left-footer-odd}
+\cfoot[\fancyplain{}{Page \thepage\ of \pageref{LastPage}}]%
+      {\fancyplain{}{Page \thepage\ of \pageref{LastPage}}}   % \cfoot[centre-footer-even]{centre-footer-odd}
+\rfoot[]{}                                                    % \rfoot[right-footer-even]{right-footer-odd}
+
 \setcounter{section}{39}
 \begin{center}
 \addtocontents{toc}{\protect\vspace{3mm}}
@@ -7350,6 +7489,7 @@ openSUSE machine gives the output shown in figure \ref{fig:runtime}.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %\clearpage   % 
 %\newcolumn
+\vspace{-10mm}
 \section{\Hsep\ Starting NUT}\label{section:Start}
 
 \begin{wrapfigure}{l}{0.5\LinePrinterwidth}
@@ -7370,7 +7510,7 @@ openSUSE machine gives the output shown in figure \ref{fig:runtime}.
   review the systemd service units involved and the scripts that they call.}
 
 The NUT software contains several daemons which need to be started to offer
-the promised NUT service.  These daemons are
+the promised NUT service.  These daemons are shown in figure \ref{fig:daemons}.
 
 \begin{figure}[ht]
 \begin{center}
@@ -7524,13 +7664,13 @@ The Debian distribution places the script in file
 
 On line \ref{LP923} the call to \upsmon\ with option \texttt{-K} checks the
 \texttt{POWERDOWNFLAG} defined by line \ref{LP209}.  The \upsmon\ daemon
-creates this file when running in master mode whenever the UPS needs to be
-powered off.  See \NUTman{upsmon.conf} for details.  If the check succeeds, we
-are free to call \upsdrvctl\ to shut down the UPS's.  Note that if you have
-multiple UPS's, the command \texttt{ upsdrvctl shutdown} will shut them all
-down.  If you have say three UPS's, \UPSi, \UPSii\ and \UPSiii, and you want
-to shut down just \UPSii\ and \UPSiii, then you should specify those UPS's as
-shown in line \ref{LP925}.
+creates this file when running in primary (master) mode whenever the UPS needs
+to be powered off.  See \NUTman{upsmon.conf} for details.  If the check
+succeeds, we are free to call \upsdrvctl\ to shut down the UPS's.  Note that
+if you have multiple UPS's, the command \texttt{ upsdrvctl shutdown} will shut
+them all down.  If you have say three UPS's, \UPSi, \UPSii\ and \UPSiii, and
+you want to shut down just \UPSii\ and \UPSiii, then you should specify those
+UPS's as shown in line \ref{LP925}.
 
 \begin{figure}[ht]
 \begin{center}
