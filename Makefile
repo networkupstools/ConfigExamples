@@ -38,6 +38,9 @@
 SERVER = /srv/www/htdocs
 DIR = NUT
 
+# Default make target
+all: ConfigExamples.pdf
+
 # All these file are needed to include the figures
 # The fig files provide the source for the pdf files
 FIGURES = bad.fig bad.pdf\
