@@ -1,15 +1,21 @@
 README 2021-05-20 Roger Price
-
+       2023-03-19 Cleanup of Makefile for submission to the nut github site
+       
             ConfigExamples
             --------------
+
+The Configuration Examples are intended as an introduction to NUT
+configuration for beginners.  Someone who has looked at the examples
+should be able to ask comprehensible questions in the NUT mailing
+list.
 
 The files in this directory are used by LaTeX to create a PDF
 file containing the NUT Configuration Examples document.
 
-The base document is a LaTeX markup ConfigExamples.tex with two 
-specific style files lineprinter.sty, and wrapfig.sty which although
-featuring in the LaTeX Companion, now seems to be deprecated,
-so I provide a copy.
+The base document is a LaTeX markup ConfigExamples.tex with two
+specific style files: lineprinter.sty, and wrapfig.sty which although
+featuring in the LaTeX Companion, now seems to be deprecated, so I
+provide a copy.
 
 By default the PDF is created for the A5 page size, more suitable 
 for reading on-screen.
@@ -23,3 +29,8 @@ To build the document:
 
 Latex will be run three times to ensure that all labels are 
 correctly referenced.  The output is in file ConfigExamples.pdf.
+
+Questions, comments, corrections, etc to the nut-upsuser mailing list
+nut-upsuser@lists.alioth.debian.org
+
+Roger Price roger@rogerprice.org

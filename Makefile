@@ -34,10 +34,12 @@
 # wouldn't that possibly push the whole document back another page?
 # Perhaps another run of LaTeX...
 
-# Where does this stuff get installed?
+# For my personal installation: Where does this stuff get installed?
 SERVER = /srv/www/htdocs
 DIR = NUT
 
+# All these file are needed to include the figures
+# The fig files provide the source for the pdf files
 FIGURES = bad.fig bad.pdf\
           big.fig big.pdf\
           delayedUPSshutdown.fig delayedUPSshutdown.pdf\
@@ -46,14 +48,20 @@ FIGURES = bad.fig bad.pdf\
           intro.fig intro.pdf\
           overview-OB.fig overview-OB.pdf\
           overview-OL.fig overview-OL.pdf\
+          remote.fig remote.pdf\
           server.fig server.pdf\
           shutdownrace.fig shutdownrace.pdf\
           slave.fig slave.pdf\
+          upsdTLS.fig upsdTLS.pdf\
+          UPSmon.fig UPSmon.pdf\
+          UPSmon-OB.fig UPSmon-OB.pdf\
           workstation.fig workstation.pdf\
-          Danger.png UPS-1.jpg UPS-2.jpg UPS-3.jpg UPS-4.jpg
+          Danger.png\
+          notification.jpg\
+	  UPS-1.jpg UPS-2.jpg UPS-3.jpg UPS-4.jpg
 
-####### The Guide in a landscape 19 inch monitor PDF file #######
-ConfigExamples.pdf: ConfigExamples.tex A5.1col.tex Makefile $(FIGURES)
+####### Build the Guide in a PDF file for a portrait (vertical) 19 inch monitor #######
+ConfigExamples.pdf: ConfigExamples.tex A5.1col.tex lineprinter.sty Makefile $(FIGURES)
 	rm -f ConfigExamples.pdf ConfigExamples.idx ConfigExamples.aux
 	echo "%%%%%%%%%%%%%%%%%% First pass %%%%%%%%%%%%%%%%%%%%%"
 	pdflatex "\newcommand{\ncols}{one}\input{ConfigExamples.tex}"
@@ -63,14 +71,14 @@ ConfigExamples.pdf: ConfigExamples.tex A5.1col.tex Makefile $(FIGURES)
 	pdflatex "\newcommand{\ncols}{one}\input{ConfigExamples.tex}"
 #	echo "%%%%%%%%%%%%%%%%%% Fourth pass %%%%%%%%%%%%%%%%%%%%%"
 #	pdflatex "\newcommand{\ncols}{one}\input{ConfigExamples.tex}"
-#	cp ConfigExamples.pdf ConfigExamples.A5.pdf
+	cp ConfigExamples.pdf ConfigExamples.A5.pdf
 
 # Clean out temporary files
 clean: Makefile $(FIGURES)
 	rm -f ConfigExamples.log ConfigExamples.aux ConfigExamples.toc\
               ConfigExamples.lof ConfigExamples.lot ConfigExamples.bbl\
               ConfigExamples.blg ConfigExamples.idx ConfigExamples.ilg\
-              ConfigExamples.ind ConfigExamples.dvi ConfigExamples.pdf\
+              ConfigExamples.ind ConfigExamples.dvi ConfigExamples.out\
               temp.ps ConfigExamples.pdf\
               ConfigExamples.A4.pdf ConfigExamples.A5.pdf
 
@@ -79,5 +87,5 @@ clean: Makefile $(FIGURES)
 # Note: This augments the work of the Makefile in ~/public_html/NUT/
 install: ConfigExamples.pdf Makefile $(FIGURES)
 	(cd $(SERVER) && mkdir -p $(DIR) )
-	rm -rf                      $(SERVER)/$(DIR)/CongigExamples.A5.pdf
+	rm -rf                      $(SERVER)/$(DIR)/ConfigExamples.A5.pdf
 	cp ConfigExamples.pdf       $(SERVER)/$(DIR)/ConfigExamples.A5.pdf
