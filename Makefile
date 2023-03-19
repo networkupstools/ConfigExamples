@@ -1,6 +1,6 @@
 # Makefile
 # Makefile used for NUT Configuration Examples
-# Copyright (C) 2017-2021 Roger Price
+# Copyright (C) 2017-2023 Roger Price
 
 # This program is free software; you can redistribute it and/or
 # modify it under the terms of the GNU General Public License
