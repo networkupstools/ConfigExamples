@@ -1,0 +1,304 @@
+#! /bin/bash -u
+# Report openSUSE NUT configuration
+# Remove comments, blank lines and passwords
+# 2015-10-16 RP
+# 2019-07-14 RP Added automatic detection of configuration file and executable directories
+#               Fixed multiple password exposure.
+#               Fixed CMDSCRIPT commented instance not ignored.
+# 2019-07-18 RP Fixed passwords not detected for remote UPSs.
+#               Added lsusb UPS units
+# 2019-12-21 RP Added test for journald not installed
+# 2020-08-07 RP Get report from a Synology NAS, Mac
+VERSION="2020-08-07"
+
+# Where do operating systems hide configuration files?
+# Inspired by https://diktiosolutions.eu/en/synology/synology-ups-nut-en/
+CFG=( "/etc/ups" "/etc/nut" "/usr/syno/etc/ups" "/sw/etc/nut" )        
+# Where do operating systems hide NUT executables?
+BIN=( "/usr/sbin" "/sbin" "/usr/syno/sbin" "/usr/syno/bin" "/sw/sbin" )
+
+# Uses Bash arrays: see 
+# https://www.tldp.org/LDP/Bash-Beginners-Guide/html/sect_10_02.html
+# https://www.tldp.org/LDP/abs/html/arrays.html
+# Set to -x to debug this fine piece of software
+set +x
+
+# Trap unexpected exits. See trap -l for list.
+# Cleanup for normal exit is done at point of exit
+trap 'RV=$? ; cleanup; exit $RV' HUP INT QUIT ILL TRAP ABRT BUS FPE SEGV PIPE ALRM TERM
+
+# Cleanup on exit
+function cleanup {
+# Remove any remaining temporary files and file based variables
+LTF=$( ls /tmp/$SCRIPT_NAME.* 2>/dev/null )         # No output or action if no temp files
+if [[ $? -eq 0 ]]
+then N=$( echo -e "$LTF" | wc -l )
+     echo "Deleting $N /tmp/$SCRIPT_NAME.* temporary files ..."
+     rm /tmp/$SCRIPT_NAME.*
+fi
+}
+
+SCRIPT_NAME=$( basename "$0" )                      # Name of this Bash script
+S="[[:space:]]"; G="[[:graph:]]"                    # REs for one or more spaces; one or more characters
+RE_COM_BL="^#.*$|^$S*$"                             # RE matches comment or blank line
+T=$( mktemp -p /tmp $SCRIPT_NAME.XXXXX ); : > $T    # Temporary output file, initially empty
+PU=$( mktemp -p /tmp $SCRIPT_NAME.XXXXX ); : > $PU  # Temporary file for upsd.users passwords, initially empty
+PM=$( mktemp -p /tmp $SCRIPT_NAME.XXXXX ); : > $PM  # Temporary file for upsmon.conf passwords, initially empty
+W=$( mktemp -p /tmp $SCRIPT_NAME.XXXXX ); : > $W    # Temporary work file, initially empty
+R="/tmp/NUT.report"                                 # T without passwords
+echo -e "\n        Welcome to $SCRIPT_NAME       Version: $VERSION"
+
+# Warn that non-root use will give incomplete report
+if [[ $( id ) =~ uid=[0-9]+\(($G+)\) ]]
+then USER=${BASH_REMATCH[1]}
+else USER="martian"
+fi
+if [[ $USER == "root" ]]
+then :
+else echo -e "\nWARNING: You are calling this script as a non-root user $USER."
+     echo -e "This will probably produce an incomplete report.\n"
+fi
+
+echo "Collecting NUT configuration ..."
+echo -e "        NUT configuration  $( date --utc '+%Y-%m-%d %T %Z' )" >> $T
+
+# Operating system
+sleep 1; echo "Operating system ..."
+echo -e "\n        ########### Operating system ###########" >> $T
+echo "Kernel release "$( uname -ro ) >> $T
+grep "NAME" /etc/os-release 2>/dev/null >> $T
+if [[ $USER == root ]]
+then upsd -V >> $T
+fi
+echo "Bash version "$BASH_VERSION >> $T
+echo "User $USER" >> $T
+echo "$SCRIPT_NAME version: $VERSION" >> $T
+
+# USB and PCI UPS units
+# Keywords that identify UPS units, See NUT compatibility list
+# https://networkupstools.org/stable-hcl.html 
+KEY_WORD="UPS|SNMP|Ablerex|Advice|AEG|APC|Apollo|Asium|Atlantis|Aviem|Belkin|Best|CABAC|Compaq|Cyber"
+KEY_WORD="$KEY_WORD|Dell|Delta|Digitus|Dynamix|Dynex|Eaton|Exide|Fenton|Fideltronik|INIGO|Forza|FSP"
+KEY_WORD="$KEY_WORD|Gamatronic|GE|Geek|Grafenthal|HP|IBM|iDowell|INELT|Inform|Infosec|IPAR|IVT|JAWAN"
+KEY_WORD="$KEY_WORD|Kanji|Kebo|Legrand|Lexis|Liebert|Lyon|Mecer|MGE|MicroDowell|Micropower|Mustek|NHS"
+KEY_WORD="$KEY_WORD|Novex|Online|Orvaldi|Plexus|Power|REDi|Riello|Rocket|Rucelf|SOLA|Socomec|Soyntec"
+KEY_WORD="$KEY_WORD|Star|SVEN|Sweex|Syndome|Sysgration|Tripp|Trust|UNITEK|UPSonic"
+lsusb 2>/dev/null | grep -i -E $KEY_WORD > $W
+NW=$( cat $W | wc -l )                # How many were UPSs ?
+if [[ $NW -gt 0 ]]
+then sleep 1; echo "USB attached UPS units ..."
+     echo -e "\n        ########### USB attached UPS units ###########" >> $T
+     cat $W >> $T
+fi
+# "GE" keyword requires additional filtering
+lspci 2>/dev/null | grep -i -E $KEY_WORD | grep -v -E "storage|bridge|Intel|register" > $W
+NW=$( cat $W | wc -l )                # How many were UPSs ?
+if [[ $NW -gt 0 ]]
+then sleep 1; echo "PCI attached UPS units ..."
+     echo -e "\n        ########### PCI attached UPS units ###########" >> $T
+     cat $W >> $T
+fi
+
+# Configuration files
+sleep 1; echo "Configuration files ..."
+# Scan through possible configuration file locations
+# and initialize variables CONFIG_FILES, CMDSCRIPT and PASSWORDS
+NC=${#CFG[*]}                    # How many ?
+for (( I=0; I<=$NC; I++ ))       # Array is 0-indexed
+do if [[ $I -lt $NC ]]
+   then # Configuration files, remove comments and empty lines
+        # Where are the configuration files?
+        C=${CFG[$I]}
+        ls "$C" 1>/dev/null 2>/dev/null
+        if [ $? -eq 0 ]
+        then # Where are the configuration files ?
+             CONFIG_FILES="$C/nut.conf $C/ups.conf $C/upsd.conf $C/upsd.users $C/upsmon.conf $C/upssched.conf"
+             # Does the NOTIFYCMD directive in upsmon.conf point to a NUT executable ?
+             NOTIFYCMD=$( cat $C/upsmon.conf | grep -v -E "$RE_COM_BL" | grep NOTIFYCMD )
+             # What are the passwords in upsmon.conf ?
+             cat $C/upsmon.conf | grep -v -E "$RE_COM_BL" | grep MONITOR > $PM
+             # What are the passwords in upsd.users ?  Look for password = sekret, even in a comment
+             grep password $C/upsd.users > $PU
+             # Where is upssched-cmd ?
+             CMDSCRIPT=$( cat $C/upssched.conf | grep -v -E "$RE_COM_BL" | grep CMDSCRIPT )
+             break               # Abandon the loop
+        fi
+   else echo ""
+        echo "ERROR: Please review array variable CFG in this script."
+        echo "It should include the directory containing your NUT configuration files."
+        echo "If your operating system requires an additional entry in array variable CFG,"
+        echo "please report this in the NUT mailing list so that this script may be"
+        echo "updated.  Thank-you"
+        echo ""
+        cleanup
+        echo "Good-bye"
+        exit 1
+   fi
+done
+
+for F in $CONFIG_FILES
+do sleep 1; echo "$F ..."
+   echo -e "\n        ########### $F ###########" >> $T
+   if [[ -f "$F" && -r "$F" ]]
+   then cat $F | grep -v -E "$RE_COM_BL" >> $T
+   else echo "Cannot access $F" >> $T
+   fi
+done
+
+# Remove all passwords from upsmon.conf
+sleep 1; echo "Removing upsmon.conf passwords ..."
+cat $PM |                                         # Password declarations in upsmon.conf
+while read LINE || [[ -n "$LINE" ]]               # Squeeze repeat white space
+do if [[ "$LINE" =~ MONITOR$S+$G+$S+$G+$S+$G+$S+($G+) ]]  # MONITOR system powervalue username password type 
+   then PASS="${BASH_REMATCH[1]}"
+        sed "s/$PASS/ ****m**** /" < $T > $W
+        mv $W $T
+   else # Wierd line, could not find a password
+        echo ""
+        echo "WARNING: I could find password in upsmon.conf line \"$LINE\"."
+        echo ""
+   fi
+done # while read LINE
+
+# Remove all passwords from upsd.users
+sleep 1; echo "Removing upsd.users passwords ..."
+cat $PU |                                         # Password declarations in upsd.users
+while read LINE || [[ -n "$LINE" ]]               # Squeeze repeat white space
+do if [[ "$LINE" =~ ^.*=(.+)$ ]]                  # Assume each line is "password = sekret"
+   then PASS="${BASH_REMATCH[1]}"
+        sed "s/$PASS/ ****u**** /" < $T > $W
+        mv $W $T
+   else # Wierd line, could not find a password
+        echo ""
+        echo "WARNING: I could find password in upsd.users line \"$LINE\"."
+        echo ""
+   fi
+done # while read LINE
+
+# The upssched-cmd script
+# Where is the upssched-cmd script?  E.g. /usr/syno/bin/synoups in a Synology NAS
+if [[ $CMDSCRIPT =~ CMDSCRIPT$S+($G+) ]]
+then F=${BASH_REMATCH[1]}      # E.g. /usr/sbin/upssched-cmd
+     sleep 1; echo "$F ..."
+     echo -e "\n        ########### $F ###########" >> $T
+     if [[ -f "$F" && -r "$F" ]]
+     then cat $F | grep -v -E "$RE_COM_BL" >> $T
+     else echo "Cannot access $F" >> $T
+     fi
+else echo "Cannot find CMDSCRIPT value in upssched.conf, continuing ..." >> $T
+fi
+
+# Get upsd rules out of hosts.allow
+sleep 1; echo "/etc/hosts.allow ..."
+HA="/etc/hosts.allow"
+echo -e "\n        ########### $HA ###########" >> $T
+if [[ -f "$HA" && -r "$HA" ]]
+then grep -v -E "$RE_COM_BL" < $HA |        # Remove comments and blank lines
+     while read L || [[ -n "$L" ]]
+     do if [[ "$L" =~ ^.*(upsd.*)$ ]]
+        then TRIM=$L  # Bash removes unwanted white space
+             echo $TRIM >> $T
+        fi
+     done
+else echo "Cannot access $HA" >> $T
+fi
+
+# Processes
+sleep 1; echo "Processes ..."
+echo -e "\n        ########### ps -eLf ###########" >> $T
+ps -eLf | grep "/ups" | grep -v "grep" >> $T
+
+# Ownership and permissions of executables
+sleep 1; echo "Ownership and permissions of executables ..."
+echo -e "\n        ########### Ownership and permissions of executables ###########" >> $T
+# Scan through possible binary file locations
+NB=${#BIN[*]}                     # How many ?
+for (( I=0; I<=$NB; I++ ))        # Array is 0-indexed
+do if [[ $I -lt $NB ]]
+   then B=${BIN[$I]}
+        ls $B/ups* 1>/dev/null 2>/dev/null   # Is it this one?
+        if [ $? -eq 0 ]
+        then ls -alF $B/ups* >> $T    # Ownership and permissions of executables
+             break                    # Abandon the loop
+        fi
+   else echo -e "\nERROR: Please review array variable BIN in this script."
+        echo "It should include the directory containing your NUT executables."
+        echo "If your operating system requires an additional entry in array variable BIN,"
+        echo "please report this in the NUT mailing list so that this script may be"
+        echo "updated.  Thank-you"
+        echo ""
+        cleanup
+        echo "Good-bye"
+        exit 1
+   fi
+done
+
+# Ownership and permissions of configuration files
+sleep 1; echo "Ownership and permissions of configuration files ..."
+echo -e "\n        ########### Ownership and permissions of configuration files ###########" >> $T
+ls -alF $C/* | grep -v -E "~|stats|set" >> $T  # Ownership and permissions of configuration files
+
+# Does the NOTIFYCMD directive in upsmon.conf point to a NUT executable or a custom script ?
+if [[ $NOTIFYCMD =~ NOTIFYCMD$S+($G+) ]]
+then F=${BASH_REMATCH[1]}      # E.g. /usr/sbin/upssched
+     if [[ $F == $B/upssched ]]
+     then :                    # Ok, Assume it's our own binary
+     else sleep 1;  echo "Custom scheduler $F ..."
+          echo -e "\n        ########### Custom NOTIFYCMD scheduler $F ###########" >> $T
+          if [[ $( file $F ) =~ script ]]
+          then if [[ -f "$F" && -r "$F" ]]
+               then cat $F | grep -v -E "$RE_COM_BL" >> $T
+               else echo "Cannot access $F" >> $T
+               fi
+          else echo -e "Custom NOTIFYCMD scheduler $F is not a script" >> $T
+          fi
+     fi
+else echo "Cannot find NOTIFYCMD value in upsmon.conf, continuing ..." >> $T
+fi
+
+# Systemd's journald
+sleep 1; ps -ef | grep -v grep | grep journald > /dev/null
+if [[ $? -eq 0 ]]
+then echo "systemd journal ..."
+     echo -e "\n        ########### nut-journal ###########" >> $T
+     nut-journal >> $T 2>/dev/null
+     if [ $? -eq 0 ]; then : 
+        else echo ""
+             echo "WARNING: I am unable to call script nut-journal to"
+             echo "read the NUT activity records in the systemd journal."
+             echo "Either the nut-journal script is not installed"
+             echo "or you do not have access to the journal"
+             echo "for system commands such as those of NUT."
+             echo "Ask your system administrator to add your"
+             echo "account to the systemd-journal group."
+             echo "When this is done, log out and then log in and"
+             echo "try again.  The nut-journal script is available"  
+             echo "at http://rogerprice.org/NUT/nut-journal"
+             echo ""
+     fi
+else echo -e "\n        ########### No journald ###########" >> $T 
+fi
+
+# Bow out
+mv $T $R
+if [[ $? -ne 0 ]]
+then echo -e "\nERRROR: Unable to create report file $R\n"
+     cleanup
+     echo "Good-bye"
+     exit 1
+fi 
+NCHAR=$( cat $R | wc -c ); NLINE=$( cat $R | wc -l )
+NKB=$(( ($NCHAR+1023) / 1024 ))
+sleep 1
+echo ""
+echo "I have created file \"$R\", $NLINE lines $NKB KBytes, with a summary of"
+echo "your NUT configuration.   Passwords have been removed.  To submit this report"
+echo "to the NUT mailing list, upload the file to a web server if you have access to"
+echo "one, or to a file hoster such as filehosting.org, and post the URL they give"
+echo "you, or attach a gzip compression of file \"$R\" to a post in the"
+echo "mailing list."
+echo ""
+cleanup
+echo "Good-bye"
+
+exit

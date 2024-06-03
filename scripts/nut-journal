@@ -1,0 +1,45 @@
+#! /bin/bash -u
+# nut-journal Display NUT activity recorded by journald for
+# previous complete boot and current (unfinished) boot.
+# RP 2015-10-05
+# 2019-07-10 RP Remove heartbeat activity from journal
+
+# Set to -x to trace this fine piece of software
+set +x
+
+TEMPFILE=$( mktemp ); : > $TEMPFILE   # Temporary file initally empty
+JOURNALCTL=journalctl
+NUT_ACTIVITY="upsd|upsmon|upssched|upsdrvctl"
+NOT_NUT_ACTIVITY="cupsd"
+# Things we don't want to see
+NOISE="CRON|heartbeat-failure-timer|created\ slice|removed\ slice|postfix"
+NOISE="$NOISE|started\ session|session\ opened|session\ closed|NUT\ heartbeat|heartbeat-watcher"
+
+WHEREIS=$( whereis -b $JOURNALCTL )
+if [[ "$WHEREIS" == "$JOURNALCTL:" ]]
+then echo "Sorry, I cannot find the program $JOURNALCTL needed to run this script."
+     exit 1
+fi
+
+# Does user have access to journalctl for upsd?
+$JOURNALCTL -b 0 -n 10 --no-pager > /dev/null
+if [ $? -eq 0 ]; then : 
+   else echo "        Welcome to nut-journal"
+        echo "You do not seem to have access to the journal"
+        echo "for system commands such as those of NUT."
+        echo "Ask your system administrator to add your"
+        echo "account to the systemd-journal group."
+        echo "When this is done, log out and then log in"
+        echo "and try again."  
+        exit 1
+fi
+
+echo "        Previous complete boot through shutdown" > $TEMPFILE
+$JOURNALCTL -b -1 --no-pager 2>>$TEMPFILE | grep -E "$NUT_ACTIVITY" | grep -v "$NOT_NUT_ACTIVITY" >> $TEMPFILE
+# Include Journal stopped message
+$JOURNALCTL -b -1 -n 1 --no-pager 2>>$TEMPFILE | tail -n 1 >> $TEMPFILE
+echo "        Current boot" >> $TEMPFILE
+$JOURNALCTL -b  0 --no-pager 2>>$TEMPFILE | grep -E "$NUT_ACTIVITY" | grep -v "$NOT_NUT_ACTIVITY" >> $TEMPFILE
+# Send report to stdout
+grep -i -v -E "$NOISE" $TEMPFILE
+rm $TEMPFILE
